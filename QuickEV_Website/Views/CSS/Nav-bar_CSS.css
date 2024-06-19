@@ -1,0 +1,292 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.nav_bar_box {
+    position: fixed;
+    top:0;
+    background-color: #566246;
+    height: 105px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Logo_Page_Container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Logo_Page img {
+    width: 51px;
+    height: 51px;
+    display:flex;
+    align-content:center;
+    align-items:center;
+    text-align:center
+
+}
+.Logo_QuickEV{
+    margin-left:10px;
+}
+.nav_bar_box .Left_menu {
+    float: left;
+    margin:0px;
+    padding: 0px;
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    align-items:center;
+    margin-left:31px;
+}
+
+.nav_bar_box ul li{
+    display:inline-block;
+    text-align:center;
+    margin-right:40px;
+    text-decoration:none;
+}
+
+.nav_bar_box ul li .Logo_Page_Container a{
+    font-size: 40px;
+    font-family:'Lato',sans-serif;
+}
+
+.nav_bar_box ul li a{
+    text-decoration:none;
+    color:white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight:600;
+    font-size:16px;
+}
+
+.SIGNIN_PAGE {
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin:0px;
+    padding:0px;
+}
+
+.SIGNIN_Background{
+    background:white;
+    height:44px;
+    width:115px;
+    display:flex;
+    text-align:center;
+    align-content:center;
+    align-items:center;
+    justify-content:center;
+    border-radius:10px;
+
+}
+.nav_bar_box .SIGNIN_PAGE li .SIGNIN_Background a{
+    color: #000000;
+    border-radius:10px;
+    font-weight:800;
+}
+
+
+
+
+
+
+
+:root {
+    --main-dark: #566246;
+    --main-light: #F7F2CA;
+    --neutral-dark: #1F1F1F;
+    --neutral-light: #F1F1F1;
+}
+
+.footer {
+    margin-top: 100px;
+    margin-bottom:10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap:10%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "location-section contact-section"
+        "botNavigation-section social-section";
+    gap: 20px 20px;
+    max-width: 1200px;
+    /*margin: 0 auto;*/
+    /*    justify-content: center;
+    align-items: stretch;
+    align-content: center;*/
+}
+
+.location-section {
+    grid-area: location-section;
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.temukanLbl {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.location-section .location-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.location-section .location-content .location-container {
+    background-color: var(--main-dark);
+    border-radius: 50%;
+    padding: 10px;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.location-section .locationLogo {
+    width: 24px;
+    height: 24px;
+}
+
+.locationLbl {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.contact-section {
+    grid-area: contact-section;
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 10px;
+    /*max-width: 400px;*/
+    padding: 30px;
+    display: grid;
+    grid-gap: 10px;
+}
+
+.ideLbl {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.pendapatLbl {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.hubungiLbl {
+    font-size: 18px;
+    font-weight: 700;
+    opacity: 40%;
+}
+
+.botNavigation-section {
+    grid-area: botNavigation-section;
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.botNavigation-section .botNavigation-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.botNavigation-section .botNavigation-content .profil-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.botNavigation-section .botNavigation-content .gabung-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.botNavigation-section .navHeader {
+    margin-bottom: 20px;
+}
+
+.navHeaderLbl {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.profilLbl {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.gabungLbl {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.kegiatanLbl, .komunitasLbl, .donaturLbl {
+    margin-bottom: 3px;
+}
+
+.tentangKamiLbl, .kegiatanLbl, .komunitasLbl, .donaturLbl {
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 50%;
+}
+
+.social-section {
+    grid-area: social-section;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    /*    max-width: 400px;*/
+}
+
+.social-section .instagram,
+.social-section .facebook,
+.social-section .twitter {
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.footer .copyright {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.copyright .copyrightLbl {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+

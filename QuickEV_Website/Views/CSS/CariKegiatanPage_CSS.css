@@ -1,0 +1,61 @@
+﻿body{
+
+}
+
+.Welcome_CariKegiatan_Container {
+    background-image: url('../../Assets/Images/relawan_cariaktivitas.jpg');
+    background-size: cover;
+    height: 670px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+   background-color: rgba(0,0,0,0.6);
+   background-blend-mode:multiply;
+   display:flex;
+   justify-content:center;
+   align-content:center;
+   align-items:center;
+   margin-top:105px;
+}
+
+.Welcome_CariKegiatan_Container_Column{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    align-items:center;
+    align-content:center;
+    justify-content:center;
+    gap:10px;
+}
+
+.Welcome_CariKegiatan_Container_Text1 {
+    font-family: 'Inter',sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+
+.Welcome_CariKegiatan_Container_Text2 {
+    font-family: 'Inter',sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    color: white;
+}
+.TemukanKegiatan_Container {
+    background-color: #566246;
+    text-align: center;
+    border-radius:10px;
+    width:376px;
+    height:67px;
+    display:flex;
+    text-align:center;
+    align-content:center;
+    align-items:center;
+    justify-content:center;
+}
+.Welcome_CariKegiatan_Container_Text3 {
+    font-family: 'Plus Jakarta Sans',sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    color: rgba(255,255,255,0.81);      
+}

@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tisha\\OneDrive\\Documents\\Coolyeah\\Semester 4\\Software Engineering\\AOL\\QuickEV_Website_Full\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|c:\\users\\tisha\\onedrive\\documents\\coolyeah\\semester 4\\software engineering\\aol\\quickev_website_full\\quickev_website\\views\\aspx\\carikegiatanpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\views\\aspx\\carikegiatanpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|c:\\users\\tisha\\onedrive\\documents\\coolyeah\\semester 4\\software engineering\\aol\\quickev_website_full\\quickev_website\\repository\\komunitasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\repository\\komunitasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|C:\\Users\\tisha\\OneDrive\\Documents\\Coolyeah\\Semester 4\\Software Engineering\\AOL\\QuickEV_Website_Full\\quickev_website\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|C:\\Users\\tisha\\OneDrive\\Documents\\Coolyeah\\Semester 4\\Software Engineering\\AOL\\QuickEV_Website_Full\\quickev_website\\repository\\relawanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\repository\\relawanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 335,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CariKegiatanPage.aspx",
+              "DocumentMoniker": "C:\\Users\\tisha\\OneDrive\\Documents\\Coolyeah\\Semester 4\\Software Engineering\\AOL\\QuickEV_Website_Full\\QuickEV_Website\\Views\\ASPX\\CariKegiatanPage.aspx",
+              "RelativeDocumentMoniker": "QuickEV_Website\\Views\\ASPX\\CariKegiatanPage.aspx",
+              "ToolTip": "C:\\Users\\tisha\\OneDrive\\Documents\\Coolyeah\\Semester 4\\Software Engineering\\AOL\\QuickEV_Website_Full\\QuickEV_Website\\Views\\ASPX\\CariKegiatanPage.aspx",
+              "RelativeToolTip": "QuickEV_Website\\Views\\ASPX\\CariKegiatanPage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-09T18:35:27.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KomunitasRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tisha\\OneDrive\\Documents\\Coolyeah\\Semester 4\\Software Engineering\\AOL\\QuickEV_Website_Full\\QuickEV_Website\\Repository\\KomunitasRepository.cs",
+              "RelativeDocumentMoniker": "QuickEV_Website\\Repository\\KomunitasRepository.cs",
+              "ToolTip": "C:\\Users\\tisha\\OneDrive\\Documents\\Coolyeah\\Semester 4\\Software Engineering\\AOL\\QuickEV_Website_Full\\QuickEV_Website\\Repository\\KomunitasRepository.cs",
+              "RelativeToolTip": "QuickEV_Website\\Repository\\KomunitasRepository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBUAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T15:21:24.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RelawanRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tisha\\OneDrive\\Documents\\Coolyeah\\Semester 4\\Software Engineering\\AOL\\QuickEV_Website_Full\\QuickEV_Website\\Repository\\RelawanRepository.cs",
+              "RelativeDocumentMoniker": "QuickEV_Website\\Repository\\RelawanRepository.cs",
+              "ToolTip": "C:\\Users\\tisha\\OneDrive\\Documents\\Coolyeah\\Semester 4\\Software Engineering\\AOL\\QuickEV_Website_Full\\QuickEV_Website\\Repository\\RelawanRepository.cs",
+              "RelativeToolTip": "QuickEV_Website\\Repository\\RelawanRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T15:21:30.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tisha\\OneDrive\\Documents\\Coolyeah\\Semester 4\\Software Engineering\\AOL\\QuickEV_Website_Full\\QuickEV_Website\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "QuickEV_Website\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\tisha\\OneDrive\\Documents\\Coolyeah\\Semester 4\\Software Engineering\\AOL\\QuickEV_Website_Full\\QuickEV_Website\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "QuickEV_Website\\Repository\\UserRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T15:21:37.919Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
