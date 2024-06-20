@@ -37,7 +37,7 @@ namespace QuickEV_Website.Views.ASPX
                         signInLi.Visible = false;
                         cariKegiatanLi.Visible = false;
                         cariKomunitasLi.Visible = false;
-                        tambahKegiatanLi.Visible = true;
+                        //tambahKegiatanLi.Visible = true;
                         kegiatanLi.Visible = true;
                     }
                 }

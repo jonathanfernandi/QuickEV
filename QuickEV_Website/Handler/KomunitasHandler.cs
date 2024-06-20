@@ -1,5 +1,6 @@
 ﻿using QuickEV_Website.Factory;
 using QuickEV_Website.Model;
+using QuickEV_Website.Modules;
 using QuickEV_Website.Repository;
 using System;
 using System.Collections.Generic;
@@ -48,6 +49,21 @@ namespace QuickEV_Website.Handler
         public static int GetKegiatanCount(int idKomunitas)
         {
             return KomunitasRepository.GetKegiatanCount(idKomunitas);
+        }
+        public static DetailKomunita GetDetailKomunitasById(int idKomunitas, int idRelawan)
+        {
+            return KomunitasRepository.GetDetailKomunitasById(idKomunitas, idRelawan);
+        }
+        public static Response<DetailKomunita> AddDetailKomunitas(int idKomunitas, int idRelawan)
+        {
+            DetailKomunita detailKomunitas = DetailKomunitasFactory.CreateDetailKomunitas(idKomunitas, idRelawan, DateTime.Now);
+            KomunitasRepository.AddDetailKomunitas(detailKomunitas);
+            return new Response<DetailKomunita>
+            {
+                Message = "",
+                IsSuccess = true,
+                Payload = detailKomunitas
+            };
         }
     }
 }

@@ -35,7 +35,7 @@
                 <video class="Profile_TentangKami_Video_SRC" src="../../Assets/Images/Profile_Video_resize.mp4" controls="controls" />
             </div>
             <div class="AmbilBagian_Btn">
-                <asp:Button ID="AmbilBagianBtn" runat="server" Text="Ambil Peran" CssClass="AmbilBagianBtn" />
+                <asp:Button ID="AmbilBagianBtn" runat="server" Text="Ambil Peran" CssClass="AmbilBagianBtn" OnClick="AmbilBagianBtn_Click" />
             </div>
         </div>
 

@@ -51,6 +51,14 @@ namespace QuickEV_Website.Views.ASPX
                         }
                     }
 
+                    if (kegiatan != null)
+                    {
+                        if(kegiatan.StartRegistration > DateTime.Now)
+                        {
+                            gabungBtn.Visible = false;
+                        }
+                    }
+
                 }
 
 

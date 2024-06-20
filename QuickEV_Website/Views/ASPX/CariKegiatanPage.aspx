@@ -14,9 +14,9 @@
             <div class="Welcome_CariKegiatan_Container_Column">
                 <asp:Label ID="Welcome_CariKegiatan_Container_Text1" runat="server" Text="Jadilah Bagian dari Kebaikan" CssClass="Welcome_CariKegiatan_Container_Text1"></asp:Label>
                 <asp:Label ID="Welcome_CariKegiatan_Container_Text2" runat="server" Text="Cari peran yang kamu inginkan" CssClass="Welcome_CariKegiatan_Container_Text2"></asp:Label>
-                <div class="TemukanKegiatan_Container">
+<%--                <div class="TemukanKegiatan_Container">
                     <asp:Label ID="Welcome_CariKegiatan_Container_Text3" runat="server" Text="TEMUKAN KEGIATAN" CssClass="Welcome_CariKegiatan_Container_Text3"></asp:Label>
-                </div>
+                </div>--%>
             </div>
         </div>
     </div>

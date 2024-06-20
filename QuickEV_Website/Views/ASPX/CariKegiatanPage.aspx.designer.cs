@@ -33,15 +33,6 @@ namespace QuickEV_Website.Views.ASPX
         protected global::System.Web.UI.WebControls.Label Welcome_CariKegiatan_Container_Text2;
 
         /// <summary>
-        /// Welcome_CariKegiatan_Container_Text3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Welcome_CariKegiatan_Container_Text3;
-
-        /// <summary>
         /// counterLbl control.
         /// </summary>
         /// <remarks>

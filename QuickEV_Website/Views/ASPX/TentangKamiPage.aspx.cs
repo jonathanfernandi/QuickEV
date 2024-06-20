@@ -13,5 +13,10 @@ namespace QuickEV_Website.Views.ASPX
         {
 
         }
+
+        protected void AmbilBagianBtn_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Views/ASPX/CariKegiatanPage.aspx");
+        }
     }
 }

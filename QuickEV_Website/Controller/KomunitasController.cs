@@ -1,5 +1,6 @@
 ﻿using QuickEV_Website.Handler;
 using QuickEV_Website.Model;
+using QuickEV_Website.Modules;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,6 +29,14 @@ namespace QuickEV_Website.Controller
         public static int GetKegiatanCount(int idKomunitas)
         {
             return KomunitasHandler.GetKegiatanCount(idKomunitas);
+        }
+        public static DetailKomunita GetDetailKomunitasById(int idKomunitas, int idRelawan)
+        {
+            return KomunitasHandler.GetDetailKomunitasById(idKomunitas, idRelawan);
+        }
+        public static Response<DetailKomunita> AddDetailKomunitas(int idKomunitas, int idRelawan)
+        {
+            return KomunitasHandler.AddDetailKomunitas(idKomunitas, idRelawan);
         }
     }
 }

@@ -86,11 +86,10 @@
     <Content Include="Assets\Images\berbagi.jpg" />
     <Content Include="Assets\Images\calendar_logo.png" />
     <Content Include="Assets\Images\clock_kegiatan.png" />
-    <Content Include="Assets\Images\ContactUs_KirimPesanPic.png" />
-    <Content Include="Assets\Images\ContactUs_Pic.png" />
     <Content Include="Assets\Images\edit_kegiatan.png" />
     <Content Include="Assets\Images\facebook.png" />
     <Content Include="Assets\Images\focus_cari_komun.png" />
+    <Content Include="Assets\Images\heart_donasi.png" />
     <Content Include="Assets\Images\image 10.png" />
     <Content Include="Assets\Images\image 11.png" />
     <Content Include="Assets\Images\image 9.png" />
@@ -104,9 +103,11 @@
     <Content Include="Assets\Images\membangun.jpg" />
     <Content Include="Assets\Images\membantu.jpg" />
     <Content Include="Assets\Images\menjaga.jpeg" />
+    <Content Include="Assets\Images\money_donasi.png" />
     <Content Include="Assets\Images\next-arrow_kegiatan.png" />
     <Content Include="Assets\Images\no-task_kegiatan.png" />
     <Content Include="Assets\Images\play_kegiatan.png" />
+    <Content Include="Assets\Images\plus_kegiatan.png" />
     <Content Include="Assets\Images\Profile_Video_resize.mp4" />
     <Content Include="Assets\Images\QuickEV-Logo-Black.png" />
     <Content Include="Assets\Images\QuickEV_Whitelogo.png" />
@@ -132,7 +133,9 @@
     </Content>
     <Content Include="Views\ASPX\CariKegiatanPage.aspx" />
     <Content Include="Views\ASPX\CariKomunitasPage.aspx" />
-    <Content Include="Views\ASPX\ContactUsPage.aspx" />
+    <Content Include="Views\ASPX\DonasiBarangPage.aspx" />
+    <Content Include="Views\ASPX\DonasiPage.aspx" />
+    <Content Include="Views\ASPX\DonasiUangPage.aspx" />
     <Content Include="Views\ASPX\HomePage.aspx" />
     <Content Include="Views\ASPX\KegiatanDetail2Page.aspx" />
     <Content Include="Views\ASPX\KegiatanDetailPage.aspx" />
@@ -146,7 +149,7 @@
     <Content Include="Views\ASPX\TentangKamiPage.aspx" />
     <Content Include="Views\CSS\CariKegiatanPage_CSS.css" />
     <Content Include="Views\CSS\CariKomunitasPage_CSS.css" />
-    <Content Include="Views\CSS\ContactUsPage_CSS.css" />
+    <Content Include="Views\CSS\DonasiPage_CSS.css" />
     <Content Include="Views\CSS\HomePage_CSS.css" />
     <Content Include="Views\CSS\KegiatanDetail2Page_CSS.css" />
     <Content Include="Views\CSS\KegiatanDetailPage_CSS.css" />
@@ -168,6 +171,7 @@
     <Compile Include="Controller\RelawanController.cs" />
     <Compile Include="Controller\UserController.cs" />
     <Compile Include="Factory\DetailKegiatanFactory.cs" />
+    <Compile Include="Factory\DetailKomunitasFactory.cs" />
     <Compile Include="Factory\KegiatanFactory.cs" />
     <Compile Include="Factory\KomunitasFactory.cs" />
     <Compile Include="Factory\RelawanFactory.cs" />
@@ -231,12 +235,26 @@
     <Compile Include="Views\ASPX\CariKomunitasPage.aspx.designer.cs">
       <DependentUpon>CariKomunitasPage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Views\ASPX\ContactUsPage.aspx.cs">
-      <DependentUpon>ContactUsPage.aspx</DependentUpon>
+    <Compile Include="Views\ASPX\DonasiBarangPage.aspx.cs">
+      <DependentUpon>DonasiBarangPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Views\ASPX\ContactUsPage.aspx.designer.cs">
-      <DependentUpon>ContactUsPage.aspx</DependentUpon>
+    <Compile Include="Views\ASPX\DonasiBarangPage.aspx.designer.cs">
+      <DependentUpon>DonasiBarangPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ASPX\DonasiPage.aspx.cs">
+      <DependentUpon>DonasiPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ASPX\DonasiPage.aspx.designer.cs">
+      <DependentUpon>DonasiPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ASPX\DonasiUangPage.aspx.cs">
+      <DependentUpon>DonasiUangPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ASPX\DonasiUangPage.aspx.designer.cs">
+      <DependentUpon>DonasiUangPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\ASPX\HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>

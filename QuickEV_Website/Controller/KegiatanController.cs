@@ -34,11 +34,11 @@ namespace QuickEV_Website.Controller
                 };
             }
 
-            if (name.Length > 50)
+            if (name.Length > 45)
             {
                 return new Response<Kegiatan>
                 {
-                    Message = "Nama Kegiatan tidak boleh terisi lebih dari 50 karakter.",
+                    Message = "Nama Kegiatan tidak boleh terisi lebih dari 45 karakter.",
                     IsSuccess = false,
                     Payload = null
                 };

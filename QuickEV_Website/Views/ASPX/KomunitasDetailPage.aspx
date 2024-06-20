@@ -21,11 +21,11 @@
                         <div class="komunitasName">
                             <asp:Label ID="komunitasNameLbl" runat="server" Text="" CssClass="komunitasNameLbl"></asp:Label>
                         </div>
-                        <div class="fokus">
-                            <div class="box-fokus">
-                                <asp:Label ID="fokusLbl" runat="server" Text="" CssClass="fokusLbl"></asp:Label>
-                            </div>
+
+                        <div class="box-fokus">
+                            <asp:Label ID="fokusLbl" runat="server" Text="" CssClass="fokusLbl"></asp:Label>
                         </div>
+
                         <div class="aktivitas">
                             <div class="box-activity">
                                 <img src="../../Assets/Images/voluntary_cari_komun.png" alt="" />
@@ -45,14 +45,18 @@
 
                 <div class="contact">
                     <div class="box-contact">
-                        <img src="../../Assets/Images/location.png" alt="" />
+                        <div class="logo">
+                            <img src="../../Assets/Images/kegiatan_loc_logo.png" alt="" />
+                        </div>
                         <div class="box-contact-text">
                             <asp:Label ID="alamatTitleLbl" runat="server" Text="Alamat" CssClass="contactHeadLbl"></asp:Label>
                             <asp:Label ID="alamatLbl" runat="server" Text="" CssClass="contactLbl"></asp:Label>
                         </div>
                     </div>
                     <div class="box-contact">
-                        <img src="../../Assets/Images/telephone_cari_komun.png" alt="" />
+                        <div class="logo">
+                            <img src="../../Assets/Images/telephone_cari_komun.png" alt="" />
+                        </div>
                         <div class="box-contact-text">
                             <asp:Label ID="teleTitleLbl" runat="server" Text="Nomor Telepon" CssClass="contactHeadLbl"></asp:Label>
                             <asp:Label ID="teleLbl" runat="server" Text="" CssClass="contactLbl"></asp:Label>
@@ -61,7 +65,7 @@
                 </div>
 
                 <div class="gabung">
-                    <asp:Button ID="gabungBtn" Text="Gabung Komunitas" CssClass="gabungBtn" runat="server"></asp:Button>
+                    <asp:Button ID="gabungBtn" Text="Gabung Komunitas" CssClass="gabungBtn" runat="server" OnClick="gabungBtn_Click"></asp:Button>
                 </div>
 
             </div>

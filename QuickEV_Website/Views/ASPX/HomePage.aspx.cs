@@ -28,5 +28,10 @@ namespace QuickEV_Website.Views.ASPX
         {
             Response.Redirect("~/Views/ASPX/CariKegiatanPage.aspx");
         }
+
+        protected void donasiBtn_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Views/ASPX/DonasiPage.aspx");
+        }
     }
 }

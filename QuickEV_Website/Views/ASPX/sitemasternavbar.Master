@@ -35,9 +35,9 @@
                             if (!QuickEV_Website.Controller.UserController.IsUserRelawan())
                             {
                     %>
-                    <li runat="server" id="tambahKegiatanLi" visible="true">
+<%--                    <li runat="server" id="tambahKegiatanLi" visible="true">
                         <a href="TambahKegiatan.aspx">TAMBAH KEGIATAN</a>
-                    </li>
+                    </li>--%>
                     <li runat="server" id="kegiatanLi" visible="true">
                         <a href="KegiatanPage.aspx">KEGIATAN</a>
                     </li>
@@ -46,7 +46,7 @@
                         }
                     %>
                     <li>
-                        <a href="">DONASI</a>
+                        <a href="DonasiPage.aspx">DONASI</a>
                     </li>
                 </ul>
                 <ul class="account">
@@ -138,7 +138,7 @@
                             <asp:Label ID="gabungLbl" runat="server" Text="Gabung" CssClass="gabungLbl"></asp:Label>
                             <asp:HyperLink ID="kegiatanLbl" runat="server" NavigateUrl="~/Views/ASPX/CariKegiatanPage.aspx" Text="Kegiatan" CssClass="kegiatanLbl"></asp:HyperLink>
                             <asp:HyperLink ID="komunitasLbl" runat="server" NavigateUrl="~/Views/ASPX/CariKomunitasPage.aspx" Text="Komunitas" CssClass="komunitasLbl"></asp:HyperLink>
-                            <asp:HyperLink ID="donaturLbl" runat="server" Text="Donatur" CssClass="donaturLbl"></asp:HyperLink>
+                            <asp:HyperLink ID="donaturLbl" runat="server" NavigateUrl="~/Views/ASPX/DonasiPage.aspx" Text="Donatur" CssClass="donaturLbl"></asp:HyperLink>
                         </div>
                     </div>
                 </div>

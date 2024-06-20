@@ -63,7 +63,7 @@
                             </div>
                             <h2>Bantu Donasi</h2>
                             <p>Berikan kebutuhan masyarakat membutuhkan melalui donasi yang kami adakan. Mari kita berdonasi!</p>
-                            <asp:Button ID="donasiBtn" runat="server" Text="DONASI" CssClass="small_container_button" />
+                            <asp:Button ID="donasiBtn" runat="server" Text="DONASI" CssClass="small_container_button" OnClick="donasiBtn_Click" />
                         </div>
 
                     </div>

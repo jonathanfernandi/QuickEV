@@ -12,6 +12,14 @@
             <asp:Image ID="countZeroImg" ImageUrl="~/Assets/Images/no-task_kegiatan.png" runat="server" Visible="false" CssClass="countZeroImg" />
             <asp:Label ID="countZeroLbl" runat="server" Text="Belum ada kegiatan" Visible="false" CssClass="countZeroLbl"></asp:Label>
         </div>
+
+        <div class="addKegiatan">
+            <a href="TambahKegiatan.aspx">
+                <asp:Image ID="plus" ImageUrl="~/Assets/Images/plus_kegiatan.png" runat="server" CssClass="plus" />
+                <span>Tambah Kegiatan</span>
+            </a>
+        </div>
+
         <div class="container">
             <asp:Repeater ID="volunteeringRpt" runat="server">
                 <ItemTemplate>

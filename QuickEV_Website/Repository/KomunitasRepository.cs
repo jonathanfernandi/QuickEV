@@ -64,6 +64,16 @@ namespace QuickEV_Website.Repository
         {
             return db.Kegiatans.Count(d => d.IdKomunitas == idKomunitas);
         }
-
+        public static DetailKomunita GetDetailKomunitasById(int idKomunitas, int idRelawan)
+        {
+            return (from x in db.DetailKomunitas
+                    where x.IdKomunitas == idKomunitas && x.IdRelawan == idRelawan
+                    select x).FirstOrDefault();
+        }
+        public static void AddDetailKomunitas(DetailKomunita detailKomunitas)
+        {
+            db.DetailKomunitas.Add(detailKomunitas);
+            db.SaveChanges();
+        }
     }
 }

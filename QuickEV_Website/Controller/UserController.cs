@@ -412,11 +412,11 @@ namespace QuickEV_Website.Controller
                 };
             }
 
-            if (wordCount > 100)
+            if (wordCount > 300)
             {
                 return new Response<User>
                 {
-                    Message = "Description must not exceed 100 words.",
+                    Message = "Description must not exceed 300 words.",
                     IsSuccess = false,
                     Payload = null
                 };

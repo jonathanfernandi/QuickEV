@@ -70,6 +70,7 @@ namespace QuickEV_Website.Repository
         {
             var keg = (from kegiatan in db.Kegiatans
                        join komunitas in db.Komunitas on kegiatan.IdKomunitas equals komunitas.IdKomunitas
+                       where kegiatan.EndRegistration > DateTime.Now
                        select new
                        {
                            FotoKegiatan = kegiatan.FotoKegiatan,
