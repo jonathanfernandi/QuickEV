@@ -1,12 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="Database1Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="DetailKegiatan">
+    <Key>
+      <PropertyRef Name="IdKegiatan" />
+      <PropertyRef Name="IdRelawan" />
+    </Key>
+    <Property Name="IdKegiatan" Type="int" Nullable="false" />
+    <Property Name="IdRelawan" Type="int" Nullable="false" />
+    <Property Name="TanggalRegistrasi" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DetailKomunitas">
+    <Key>
+      <PropertyRef Name="IdKomunitas" />
+      <PropertyRef Name="IdRelawan" />
+    </Key>
+    <Property Name="IdKomunitas" Type="int" Nullable="false" />
+    <Property Name="IdRelawan" Type="int" Nullable="false" />
+    <Property Name="TanggalDaftar" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Kegiatan">
+    <Key>
+      <PropertyRef Name="IdKegiatan" />
+    </Key>
+    <Property Name="IdKegiatan" Type="int" Nullable="false" />
+    <Property Name="IdKomunitas" Type="int" Nullable="false" />
+    <Property Name="NamaKegiatan" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="StartDate" Type="datetime" Nullable="false" />
+    <Property Name="EndDate" Type="datetime" Nullable="false" />
+    <Property Name="Lokasi" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="FotoKegiatan" Type="image" Nullable="false" />
+    <Property Name="StartTime" Type="datetime" Nullable="false" />
+    <Property Name="EndTime" Type="datetime" Nullable="false" />
+    <Property Name="StartRegistration" Type="datetime" Nullable="false" />
+    <Property Name="EndRegistration" Type="datetime" Nullable="false" />
+    <Property Name="DescKegiatan" Type="varchar(max)" Nullable="false" />
+    <Property Name="NamaPekerjaan" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="RelawanDibutuhkan" Type="int" Nullable="false" />
+    <Property Name="TugasRelawan" Type="varchar(max)" Nullable="false" />
+    <Property Name="KriteriaRelawan" Type="varchar(max)" Nullable="false" />
+    <Property Name="PerlengkapanRelawan" Type="varchar(max)" Nullable="false" />
+    <Property Name="DomisiliRelawan" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="FokusEvent" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
   <EntityType Name="Komunitas">
     <Key>
       <PropertyRef Name="IdKomunitas" />
     </Key>
     <Property Name="IdKomunitas" Type="int" Nullable="false" />
     <Property Name="NamaKomunitas" Type="varchar" MaxLength="50" Nullable="false" />
-    <Property Name="DeskripsiKomunitas" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="DeskripsiKomunitas" Type="varchar(max)" Nullable="false" />
     <Property Name="FokusUtama" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="Logo" Type="image" Nullable="false" />
     <Property Name="Alamat" Type="varchar" MaxLength="100" Nullable="false" />
@@ -35,6 +77,74 @@
     <Property Name="IdKomunitas" Type="int" />
     <Property Name="IdRelawan" Type="int" />
   </EntityType>
+  <Association Name="FK_DetailKegiatan_Kegiatan">
+    <End Role="Kegiatan" Type="Self.Kegiatan" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="DetailKegiatan" Type="Self.DetailKegiatan" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kegiatan">
+        <PropertyRef Name="IdKegiatan" />
+      </Principal>
+      <Dependent Role="DetailKegiatan">
+        <PropertyRef Name="IdKegiatan" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DetailKegiatas_Relawan">
+    <End Role="Relawan" Type="Self.Relawan" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="DetailKegiatan" Type="Self.DetailKegiatan" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Relawan">
+        <PropertyRef Name="IdRelawan" />
+      </Principal>
+      <Dependent Role="DetailKegiatan">
+        <PropertyRef Name="IdRelawan" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DetailKomunitas_Komunitas">
+    <End Role="Komunitas" Type="Self.Komunitas" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="DetailKomunitas" Type="Self.DetailKomunitas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Komunitas">
+        <PropertyRef Name="IdKomunitas" />
+      </Principal>
+      <Dependent Role="DetailKomunitas">
+        <PropertyRef Name="IdKomunitas" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DetailKomunitas_Relawan">
+    <End Role="Relawan" Type="Self.Relawan" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="DetailKomunitas" Type="Self.DetailKomunitas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Relawan">
+        <PropertyRef Name="IdRelawan" />
+      </Principal>
+      <Dependent Role="DetailKomunitas">
+        <PropertyRef Name="IdRelawan" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Kegiatan_ToKomunitas">
+    <End Role="Komunitas" Type="Self.Komunitas" Multiplicity="1" />
+    <End Role="Kegiatan" Type="Self.Kegiatan" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Komunitas">
+        <PropertyRef Name="IdKomunitas" />
+      </Principal>
+      <Dependent Role="Kegiatan">
+        <PropertyRef Name="IdKomunitas" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
   <Association Name="FK_Users_ToKomunitas">
     <End Role="Komunitas" Type="Self.Komunitas" Multiplicity="0..1" />
     <End Role="Users" Type="Self.Users" Multiplicity="*" />
@@ -60,9 +170,32 @@
     </ReferentialConstraint>
   </Association>
   <EntityContainer Name="Database1ModelStoreContainer">
+    <EntitySet Name="DetailKegiatan" EntityType="Self.DetailKegiatan" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DetailKomunitas" EntityType="Self.DetailKomunitas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Kegiatan" EntityType="Self.Kegiatan" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Komunitas" EntityType="Self.Komunitas" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Relawan" EntityType="Self.Relawan" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_DetailKegiatan_Kegiatan" Association="Self.FK_DetailKegiatan_Kegiatan">
+      <End Role="Kegiatan" EntitySet="Kegiatan" />
+      <End Role="DetailKegiatan" EntitySet="DetailKegiatan" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DetailKegiatas_Relawan" Association="Self.FK_DetailKegiatas_Relawan">
+      <End Role="Relawan" EntitySet="Relawan" />
+      <End Role="DetailKegiatan" EntitySet="DetailKegiatan" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DetailKomunitas_Komunitas" Association="Self.FK_DetailKomunitas_Komunitas">
+      <End Role="Komunitas" EntitySet="Komunitas" />
+      <End Role="DetailKomunitas" EntitySet="DetailKomunitas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DetailKomunitas_Relawan" Association="Self.FK_DetailKomunitas_Relawan">
+      <End Role="Relawan" EntitySet="Relawan" />
+      <End Role="DetailKomunitas" EntitySet="DetailKomunitas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Kegiatan_ToKomunitas" Association="Self.FK_Kegiatan_ToKomunitas">
+      <End Role="Komunitas" EntitySet="Komunitas" />
+      <End Role="Kegiatan" EntitySet="Kegiatan" />
+    </AssociationSet>
     <AssociationSet Name="FK_Users_ToKomunitas" Association="Self.FK_Users_ToKomunitas">
       <End Role="Komunitas" EntitySet="Komunitas" />
       <End Role="Users" EntitySet="Users" />

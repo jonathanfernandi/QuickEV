@@ -33,22 +33,31 @@ namespace QuickEV_Website.Views.ASPX
         protected global::System.Web.UI.WebControls.Label headerLbl;
 
         /// <summary>
-        /// emailLbl control.
+        /// usernameLbl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label emailLbl;
+        protected global::System.Web.UI.WebControls.Label usernameLbl;
 
         /// <summary>
-        /// emailTxt control.
+        /// usernameTxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox emailTxt;
+        protected global::System.Web.UI.WebControls.TextBox usernameTxt;
+
+        /// <summary>
+        /// usernameErrorLbl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label usernameErrorLbl;
 
         /// <summary>
         /// passwordLbl control.
@@ -67,6 +76,15 @@ namespace QuickEV_Website.Views.ASPX
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox passwordTxt;
+
+        /// <summary>
+        /// passwordErrorLbl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label passwordErrorLbl;
 
         /// <summary>
         /// signInBtn control.

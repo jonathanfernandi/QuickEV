@@ -1,8 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="Database1ModelStoreContainer" CdmEntityContainer="Database1Entities1">
-    <EntitySetMapping Name="Komunitas1">
-      <EntityTypeMapping TypeName="Database1Model.Komunitas">
+  <EntityContainerMapping StorageEntityContainer="Database1ModelStoreContainer" CdmEntityContainer="Database1Entities2">
+    <EntitySetMapping Name="DetailKegiatans">
+      <EntityTypeMapping TypeName="Database1Model.DetailKegiatan">
+        <MappingFragment StoreEntitySet="DetailKegiatan">
+          <ScalarProperty Name="IdKegiatan" ColumnName="IdKegiatan" />
+          <ScalarProperty Name="IdRelawan" ColumnName="IdRelawan" />
+          <ScalarProperty Name="TanggalRegistrasi" ColumnName="TanggalRegistrasi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kegiatans">
+      <EntityTypeMapping TypeName="Database1Model.Kegiatan">
+        <MappingFragment StoreEntitySet="Kegiatan">
+          <ScalarProperty Name="IdKegiatan" ColumnName="IdKegiatan" />
+          <ScalarProperty Name="IdKomunitas" ColumnName="IdKomunitas" />
+          <ScalarProperty Name="NamaKegiatan" ColumnName="NamaKegiatan" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="Lokasi" ColumnName="Lokasi" />
+          <ScalarProperty Name="FotoKegiatan" ColumnName="FotoKegiatan" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="StartRegistration" ColumnName="StartRegistration" />
+          <ScalarProperty Name="EndRegistration" ColumnName="EndRegistration" />
+          <ScalarProperty Name="DescKegiatan" ColumnName="DescKegiatan" />
+          <ScalarProperty Name="NamaPekerjaan" ColumnName="NamaPekerjaan" />
+          <ScalarProperty Name="RelawanDibutuhkan" ColumnName="RelawanDibutuhkan" />
+          <ScalarProperty Name="TugasRelawan" ColumnName="TugasRelawan" />
+          <ScalarProperty Name="KriteriaRelawan" ColumnName="KriteriaRelawan" />
+          <ScalarProperty Name="PerlengkapanRelawan" ColumnName="PerlengkapanRelawan" />
+          <ScalarProperty Name="DomisiliRelawan" ColumnName="DomisiliRelawan" />
+          <ScalarProperty Name="FokusEvent" ColumnName="FokusEvent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Komunitas">
+      <EntityTypeMapping TypeName="Database1Model.Komunita">
         <MappingFragment StoreEntitySet="Komunitas">
           <ScalarProperty Name="IdKomunitas" ColumnName="IdKomunitas" />
           <ScalarProperty Name="NamaKomunitas" ColumnName="NamaKomunitas" />
@@ -36,6 +70,15 @@
           <ScalarProperty Name="RoleUser" ColumnName="RoleUser" />
           <ScalarProperty Name="IdKomunitas" ColumnName="IdKomunitas" />
           <ScalarProperty Name="IdRelawan" ColumnName="IdRelawan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DetailKomunitas">
+      <EntityTypeMapping TypeName="Database1Model.DetailKomunita">
+        <MappingFragment StoreEntitySet="DetailKomunitas">
+          <ScalarProperty Name="TanggalDaftar" ColumnName="TanggalDaftar" />
+          <ScalarProperty Name="IdRelawan" ColumnName="IdRelawan" />
+          <ScalarProperty Name="IdKomunitas" ColumnName="IdKomunitas" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

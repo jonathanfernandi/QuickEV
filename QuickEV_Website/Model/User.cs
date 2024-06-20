@@ -21,7 +21,7 @@ namespace QuickEV_Website.Model
         public Nullable<int> IdKomunitas { get; set; }
         public Nullable<int> IdRelawan { get; set; }
     
-        public virtual Komunitas Komunita { get; set; }
+        public virtual Komunita Komunita { get; set; }
         public virtual Relawan Relawan { get; set; }
     }
 }

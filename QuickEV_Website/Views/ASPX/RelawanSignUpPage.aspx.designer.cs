@@ -51,6 +51,15 @@ namespace QuickEV_Website.Views.ASPX
         protected global::System.Web.UI.WebControls.TextBox nameTxt;
 
         /// <summary>
+        /// nameErrorLbl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label nameErrorLbl;
+
+        /// <summary>
         /// usernameLbl control.
         /// </summary>
         /// <remarks>
@@ -67,6 +76,15 @@ namespace QuickEV_Website.Views.ASPX
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox usernameTxt;
+
+        /// <summary>
+        /// usernameErrorLbl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label usernameErrorLbl;
 
         /// <summary>
         /// emailLbl control.
@@ -87,6 +105,15 @@ namespace QuickEV_Website.Views.ASPX
         protected global::System.Web.UI.WebControls.TextBox emailTxt;
 
         /// <summary>
+        /// emailErrorLbl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label emailErrorLbl;
+
+        /// <summary>
         /// passwordLbl control.
         /// </summary>
         /// <remarks>
@@ -103,6 +130,15 @@ namespace QuickEV_Website.Views.ASPX
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox passwordTxt;
+
+        /// <summary>
+        /// passwordErrorLbl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label passwordErrorLbl;
 
         /// <summary>
         /// confPasswordLbl control.
@@ -123,6 +159,15 @@ namespace QuickEV_Website.Views.ASPX
         protected global::System.Web.UI.WebControls.TextBox confPasswordTxt;
 
         /// <summary>
+        /// confPasswordErrorLbl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label confPasswordErrorLbl;
+
+        /// <summary>
         /// genderLbl control.
         /// </summary>
         /// <remarks>
@@ -139,6 +184,15 @@ namespace QuickEV_Website.Views.ASPX
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList genderDDL;
+
+        /// <summary>
+        /// genderErrorLbl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label genderErrorLbl;
 
         /// <summary>
         /// DOBLbl control.
@@ -159,6 +213,15 @@ namespace QuickEV_Website.Views.ASPX
         protected global::System.Web.UI.WebControls.TextBox DOBTxt;
 
         /// <summary>
+        /// DOBErrorLbl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label DOBErrorLbl;
+
+        /// <summary>
         /// provinsiLbl control.
         /// </summary>
         /// <remarks>
@@ -175,6 +238,15 @@ namespace QuickEV_Website.Views.ASPX
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList provinsiDDL;
+
+        /// <summary>
+        /// provinsiErrorLbl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label provinsiErrorLbl;
 
         /// <summary>
         /// warningLbl control.

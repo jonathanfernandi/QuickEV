@@ -17,20 +17,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 180vh;
+    align-content: center;
+    height: auto;
     background: var(--neutral-light);
-    margin-top: 100px;
 }
 
-.page .container {
+.page .container-page{
+    margin-top: 105px;
+    padding: 20vh 5vh 20vh 5vh;
+}
+
+.page .container-page .form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 600px;
+    width: 600px;
     padding: 50px;
     background: #FFFFFF;
     box-shadow: 0px 0px 0.5px 0.5px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
+}
+
+.logo {
+    padding-bottom: 10px;
 }
 
 .header{
@@ -38,7 +47,7 @@
 }
 
 .headerLbl {
-    font-size: 36px;
+    font-size: 26px;
     font-weight: 800;
 }
 
@@ -50,7 +59,7 @@
 .genderLbl,
 .DOBLbl,
 .provinsiLbl {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
 }
 
@@ -67,7 +76,7 @@
     border-width: 0.1px;
     border-radius: 7px;
     width: auto;
-    height: 45px;
+    height: 35px;
 }
 
 .nameTxt,
@@ -78,7 +87,7 @@
 .genderDDL,
 .DOBTxt,
 .provinsiDDL {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     padding-left: 5px;
     padding-right: 5px;
@@ -110,7 +119,7 @@
 
 .warningLbl{
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 800;
 }
 
@@ -122,5 +131,5 @@
     color: white;
     font-size: 18px;
     font-weight: 600;
-    height: 50px;
+    height: 40px;
 }

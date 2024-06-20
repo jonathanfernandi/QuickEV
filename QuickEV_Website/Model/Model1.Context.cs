@@ -13,10 +13,10 @@ namespace QuickEV_Website.Model
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class Database1Entities1 : DbContext
+    public partial class Database1Entities2 : DbContext
     {
-        public Database1Entities1()
-            : base("name=Database1Entities1")
+        public Database1Entities2()
+            : base("name=Database1Entities2")
         {
         }
     
@@ -25,8 +25,11 @@ namespace QuickEV_Website.Model
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Komunitas> Komunitas1 { get; set; }
+        public virtual DbSet<DetailKegiatan> DetailKegiatans { get; set; }
+        public virtual DbSet<Kegiatan> Kegiatans { get; set; }
+        public virtual DbSet<Komunita> Komunitas { get; set; }
         public virtual DbSet<Relawan> Relawans { get; set; }
         public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<DetailKomunita> DetailKomunitas { get; set; }
     }
 }

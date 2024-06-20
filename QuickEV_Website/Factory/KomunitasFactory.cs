@@ -10,11 +10,11 @@ namespace QuickEV_Website.Factory
 {
     public class KomunitasFactory
     {
-        public static Komunitas CreateKomunitas(int IdKomunitas,  String NamaKomunitas,
+        public static Komunita CreateKomunitas(int IdKomunitas,  String NamaKomunitas,
             String DeskripsiKomunitas, String FokusUtama, Image Logo, String Alamat,
             String Provinsi, String TelpKomunitas)
         {
-            Komunitas komunitas = new Komunitas();
+            Komunita komunitas = new Komunita();
             komunitas.IdKomunitas = IdKomunitas;
             komunitas.NamaKomunitas = NamaKomunitas;
             komunitas.DeskripsiKomunitas = DeskripsiKomunitas;

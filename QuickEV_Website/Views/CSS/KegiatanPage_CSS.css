@@ -1,0 +1,147 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-dark: #566246;
+    --main-light: #F7F2CA;
+    --neutral-dark: #1F1F1F;
+    --neutral-light: #F1F1F1;
+}
+
+
+.page {
+    margin-top: 105px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    background: #fff;
+    width: 100%;
+}
+
+    .page .container {
+        /*margin-top: 5vh;*/
+        display: grid;
+/*        grid-template-rows: repeat(4, 100px);*/
+        grid-template-columns: repeat(4, minmax(100px, 1fr));
+        grid-gap: 30px 30px;
+    }
+
+.bigHeader{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    color: #9C9C9C;
+}
+.bigHeaderLbl {
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+
+.countZeroImg{
+    margin-bottom: 30px;
+    height: 140px;
+    width: 140px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    height: 470px;
+    width: auto;
+}
+
+.box-title {
+    height: 60px;
+}
+
+.box-komunitasName {
+    height: 30px;
+}
+
+.imgFotoKegiatan {
+    width: 100%;
+    height: 200px;
+}
+
+.box-info {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.titleLbl {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.komunitasNameLbl {
+    font-size: 16px;
+    font-weight: 500;
+    color: grey;
+    padding-bottom: 20px;
+}
+
+.row span {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    height: 25px;
+}
+
+    .row img {
+        width: 20px;
+        height: 20px;
+    }
+
+.detail {
+    margin-top: 25px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    align-content: end;
+}
+
+    .detail a {
+        font-size: 15px;
+        display: inline-block;
+        text-align: center;
+        padding: 0.5rem 1rem;
+        background-color: var(--main-dark);
+        color: #fff;
+        font-weight: 600;
+        text-decoration: none;
+        border-radius: 4px;
+    }
+
+.arrow {
+    margin-left: 7px;
+    width: 14px;
+    height: 14px;
+}

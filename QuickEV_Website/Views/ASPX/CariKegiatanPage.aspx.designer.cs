@@ -33,21 +33,57 @@ namespace QuickEV_Website.Views.ASPX
         protected global::System.Web.UI.WebControls.Label Welcome_CariKegiatan_Container_Text2;
 
         /// <summary>
-        /// TotalAktivitas_Text control.
+        /// Welcome_CariKegiatan_Container_Text3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label TotalAktivitas_Text;
+        protected global::System.Web.UI.WebControls.Label Welcome_CariKegiatan_Container_Text3;
 
         /// <summary>
-        /// AktivitasMenunggu control.
+        /// counterLbl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label AktivitasMenunggu;
+        protected global::System.Web.UI.WebControls.Label counterLbl;
+
+        /// <summary>
+        /// bigHeaderLbl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label bigHeaderLbl;
+
+        /// <summary>
+        /// countZeroImg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image countZeroImg;
+
+        /// <summary>
+        /// countZeroLbl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label countZeroLbl;
+
+        /// <summary>
+        /// volunteeringRpt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Repeater volunteeringRpt;
     }
 }

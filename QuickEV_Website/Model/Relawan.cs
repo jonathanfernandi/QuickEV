@@ -17,7 +17,9 @@ namespace QuickEV_Website.Model
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Relawan()
         {
+            this.DetailKegiatans = new HashSet<DetailKegiatan>();
             this.Users = new HashSet<User>();
+            this.DetailKomunitas = new HashSet<DetailKomunita>();
         }
     
         public int IdRelawan { get; set; }
@@ -28,6 +30,10 @@ namespace QuickEV_Website.Model
         public string ProvinsiRelawan { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<DetailKegiatan> DetailKegiatans { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<User> Users { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<DetailKomunita> DetailKomunitas { get; set; }
     }
 }

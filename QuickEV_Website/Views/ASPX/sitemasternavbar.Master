@@ -12,105 +12,159 @@
 <body>
     <form id="form1" runat="server">
         <div>
-             <nav class="nav_bar_box">
-                  <ul class="Left_menu">
-                     <li>
-                         <div class="Logo_Page_Container">
-                             <a class="Logo_Page"> <img src="../../Assets/Images/QuickEV_Whitelogo.png"/></a>
-                             <a class="Logo_QuickEV">QuickEV</a>
-                         </div>
-                     </li>
-                     <li>
-                         <a href="">TENTANG KAMI</a>
-                     </li>
-                     <li>
-                         <a href="CariKegiatanPage.aspx">CARI KEGIATAN</a>
-                     </li>
-                     <li>
-                         <a href="">CARI KOMUNITAS</a>
-                     </li>
-                     <li>
-                         <a href="">DONASI</a>
-                     </li>
-                  </ul>   
-                  <ul class="SIGNIN_PAGE">
-                      <li>
-                          <div class="SIGNIN_Background">
-                              <a href="SignInPage.aspx">SIGN IN</a>
-                          </div>
-                      </li>
-                 </ul>
+            <nav class="nav_bar_box">
+                <ul class="Left_menu">
+                    <li>
+                        <div class="Logo_Page_Container">
+                            <a class="Logo_Page">
+                                <img src="../../Assets/Images/QuickEV_Whitelogo.png" /></a>
+                            <a class="Logo_QuickEV" href="HomePage.aspx">QuickEV</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="TentangKamiPage.aspx">TENTANG KAMI</a>
+                    </li>
+                    <li runat="server" id="cariKegiatanLi" visible="true">
+                        <a href="CariKegiatanPage.aspx">CARI KEGIATAN</a>
+                    </li>
+                    <li runat="server" id="cariKomunitasLi" visible="true">
+                        <a href="CariKomunitasPage.aspx">CARI KOMUNITAS</a>
+                    </li>
+                    <% if (QuickEV_Website.Controller.UserController.IsUserLoggedIn())
+                        {
+                            if (!QuickEV_Website.Controller.UserController.IsUserRelawan())
+                            {
+                    %>
+                    <li runat="server" id="tambahKegiatanLi" visible="true">
+                        <a href="TambahKegiatan.aspx">TAMBAH KEGIATAN</a>
+                    </li>
+                    <li runat="server" id="kegiatanLi" visible="true">
+                        <a href="KegiatanPage.aspx">KEGIATAN</a>
+                    </li>
+                    <%
+                            }
+                        }
+                    %>
+                    <li>
+                        <a href="">DONASI</a>
+                    </li>
+                </ul>
+                <ul class="account">
+                    <% if (QuickEV_Website.Controller.UserController.IsUserLoggedIn())
+                        {
+                            if (QuickEV_Website.Controller.UserController.IsUserRelawan())
+                            {
+                    %>
+                    <li runat="server" id="relawanLi" visible="true">
+                        <div class="profileBox">
+                            <asp:ImageButton ID="ImageButton1" ImageUrl="~/Assets/Images/profile_logo.png" runat="server" />
+                            <a href="">PROFILE</a>
+                        </div>
+                    </li>
+                    <%
+                        }
+                        else if (!QuickEV_Website.Controller.UserController.IsUserRelawan())
+                        {
+                    %>
+                    <li runat="server" id="komunitasLi" visible="true">
+                        <div class="profileBox">
+                            <asp:ImageButton ID="ImageButton2" ImageUrl="~/Assets/Images/profile_logo.png" runat="server" />
+                            <a href="">PROFILE</a>
+                        </div>
+                    </li>
+                    <%
+                        }
+                    %>
+                    <li runat="server" id="logOutLi" visible="true">
+                        <div class="logOutBox">
+                            <asp:Button ID="logOutBtn" runat="server" Text="LOG OUT" CssClass="logOutBtn" OnClick="logOutBtn_Click" />
+                        </div>
+                    </li>
+                    <%
+                        }
+                        else
+                        {
+                    %>
+                    <li runat="server" id="signInLi" visible="true">
+                        <div class="SIGNIN_Background">
+                            <a href="SignInPage.aspx">SIGN IN</a>
+                        </div>
+                    </li>
+                    <%
+                        }
+                    %>
+                </ul>
             </nav>
         </div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
-         
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
         <div class="footer">
 
-          <div class="container">
+            <div class="container">
 
-             <div class="location-section">
-                 <asp:Label ID="temukanLbl" runat="server" Text="Temukan kami" CssClass="temukanLbl"></asp:Label>
-                 <div class="location-content">
-                     <div class="location-container">
-                         <asp:Image ID="locationLogo" runat="server" ImageUrl="~/Assets/Images/location.png" />
-                     </div>
-                     <asp:Label ID="locationLbl" runat="server" Text="Jl. Raya Kb. Jeruk No.27, RT.1/RW.9, Kemanggisan, Kec. Palmerah, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11530" CssClass="locationLbl"></asp:Label>
-                 </div>
-             </div>
+                <div class="location-section">
+                    <asp:Label ID="temukanLbl" runat="server" Text="Temukan kami" CssClass="temukanLbl"></asp:Label>
+                    <div class="location-content">
+                        <div class="location-container">
+                            <asp:Image ID="locationLogo" runat="server" ImageUrl="~/Assets/Images/location.png" />
+                        </div>
+                        <asp:Label ID="locationLbl" runat="server" Text="Jl. Raya Kb. Jeruk No.27, RT.1/RW.9, Kemanggisan, Kec. Palmerah, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11530" CssClass="locationLbl"></asp:Label>
+                    </div>
+                </div>
 
-             <div class="contact-section">
-                 <div class="ide">
-                     <asp:Label ID="ideLbl" runat="server" Text="Punya ide atau saran? Yuk berbagi!" CssClass="ideLbl"></asp:Label>
-                 </div>
-                 <div class="pendapat">
-                     <asp:Label ID="pendapatLbl" runat="server" Text="Kami senang mendengar pendapat Anda. Masukan Anda sangat berharga bagi kami." CssClass="pendapatLbl"></asp:Label>
-                 </div>
-                 <div class="hubungi">
-                     <asp:HyperLink ID="hubungiLbl" runat="server" Text="Hubungi kami di sini" CssClass="hubungiLbl"></asp:HyperLink>
-                 </div>
-             </div>
+                <div class="contact-section">
+                    <div class="ide">
+                        <asp:Label ID="ideLbl" runat="server" Text="Punya ide atau saran? Yuk berbagi!" CssClass="ideLbl"></asp:Label>
+                    </div>
+                    <div class="pendapat">
+                        <asp:Label ID="pendapatLbl" runat="server" Text="Kami senang mendengar pendapat Anda. Masukan Anda sangat berharga bagi kami." CssClass="pendapatLbl"></asp:Label>
+                    </div>
+                    <div class="hubungi">
+                        <asp:HyperLink ID="hubungiLbl" runat="server" Text="Hubungi kami di sini" CssClass="hubungiLbl"></asp:HyperLink>
+                    </div>
+                </div>
 
-             <div class="botNavigation-section">
-                 <div class="navHeader">
-                     <asp:Label ID="navHeaderLbl" runat="server" Text="Wujudkan niat baikmu disini" CssClass="navHeaderLbl"></asp:Label>
-                 </div>
-                 <div class="botNavigation-content">
-                     <div class="profil-content">
-                         <asp:Label ID="profilLbl" runat="server" Text="Profile" CssClass="profilLbl"></asp:Label>
-                         <asp:HyperLink ID="tentangKamiLbl" runat="server" Text="Tentang Kami" CssClass="tentangKamiLbl"></asp:HyperLink>
-                     </div>
-                     <div class="gabung-content">
-                         <asp:Label ID="gabungLbl" runat="server" Text="Gabung" CssClass="gabungLbl"></asp:Label>
-                         <asp:HyperLink ID="kegiatanLbl" runat="server" Text="Kegiatan" CssClass="kegiatanLbl"></asp:HyperLink>
-                         <asp:HyperLink ID="komunitasLbl" runat="server" Text="Komunitas" CssClass="komunitasLbl"></asp:HyperLink>
-                         <asp:HyperLink ID="donaturLbl" runat="server" Text="Donatur" CssClass="donaturLbl"></asp:HyperLink>
-                     </div>
-                 </div>
-             </div>
+                <div class="botNavigation-section">
+                    <div class="navHeader">
+                        <asp:Label ID="navHeaderLbl" runat="server" Text="Wujudkan niat baikmu disini" CssClass="navHeaderLbl"></asp:Label>
+                    </div>
+                    <div class="botNavigation-content">
+                        <div class="profil-content">
+                            <asp:Label ID="profilLbl" runat="server" Text="Profile" CssClass="profilLbl"></asp:Label>
+                            <asp:HyperLink ID="tentangKamiLbl" runat="server" NavigateUrl="~/Views/ASPX/TentangKamiPage.aspx" Text="Tentang Kami" CssClass="tentangKamiLbl"></asp:HyperLink>
+                        </div>
+                        <div class="gabung-content">
+                            <asp:Label ID="gabungLbl" runat="server" Text="Gabung" CssClass="gabungLbl"></asp:Label>
+                            <asp:HyperLink ID="kegiatanLbl" runat="server" NavigateUrl="~/Views/ASPX/CariKegiatanPage.aspx" Text="Kegiatan" CssClass="kegiatanLbl"></asp:HyperLink>
+                            <asp:HyperLink ID="komunitasLbl" runat="server" NavigateUrl="~/Views/ASPX/CariKomunitasPage.aspx" Text="Komunitas" CssClass="komunitasLbl"></asp:HyperLink>
+                            <asp:HyperLink ID="donaturLbl" runat="server" Text="Donatur" CssClass="donaturLbl"></asp:HyperLink>
+                        </div>
+                    </div>
+                </div>
 
-             <div class="social-section">
-                 <div class="instagram">
-                     <asp:Image ID="instagramBtn" runat="server" ImageUrl="~/Assets/Images/instagram.png" />
-                 </div>
+                <div class="social-section">
+                    <div class="instagram">
+                        <asp:Image ID="instagramBtn" runat="server" ImageUrl="~/Assets/Images/instagram.png" />
+                    </div>
 
-                 <div class="facebook">
-                     <asp:Image ID="facebookBtn" runat="server" ImageUrl="~/Assets/Images/facebook.png" />
-                 </div>
+                    <div class="facebook">
+                        <asp:Image ID="facebookBtn" runat="server" ImageUrl="~/Assets/Images/facebook.png" />
+                    </div>
 
-                 <div class="twitter">
-                     <asp:Image ID="twitterBtn" runat="server" ImageUrl="~/Assets/Images/twitter.png" />
-                 </div>
-             </div>
+                    <div class="twitter">
+                        <asp:Image ID="twitterBtn" runat="server" ImageUrl="~/Assets/Images/twitter.png" />
+                    </div>
+                </div>
 
-         </div>
+            </div>
 
-         <div class="copyright">
-             <asp:Image ID="copyrightLogo" runat="server" ImageUrl="~/Assets/Images/QuickEV-Logo-Black.png" />
-             <asp:Label ID="copyrightLbl" runat="server" Text="©2023 QuickEV. All Rights Reserved." CssClass="copyrightLbl"></asp:Label>
-         </div>
+            <div class="copyright">
+                <asp:Image ID="copyrightLogo" runat="server" ImageUrl="~/Assets/Images/QuickEV-Logo-Black.png" />
+                <asp:Label ID="copyrightLbl" runat="server" Text="©2023 QuickEV. All Rights Reserved." CssClass="copyrightLbl"></asp:Label>
+            </div>
 
-     </div>
+        </div>
 
     </form>
 </body>

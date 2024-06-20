@@ -9,7 +9,7 @@ namespace QuickEV_Website.Factory
     public class UserFactory
     {
         public static User CreateUser(int IdUser, String Username, String Password,
-            String RoleUser, int IdKomunitas, int IdRelawan)
+            String RoleUser, int? IdKomunitas, int? IdRelawan)
         {
             User user = new User();
             user.IdUser = IdUser;

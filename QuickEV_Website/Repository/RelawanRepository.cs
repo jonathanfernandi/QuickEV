@@ -8,7 +8,7 @@ namespace QuickEV_Website.Repository
 {
     public class RelawanRepository
     {
-        private static Database1Entities1 db = new Database1Entities1();
+        private static Database1Entities2 db = new Database1Entities2();
         public static void AddRelawan(Relawan relawan)
         {
             db.Relawans.Add(relawan);
@@ -23,8 +23,12 @@ namespace QuickEV_Website.Repository
         public static Relawan GetRelawanByEmail(String email)
         {
             return (from x in db.Relawans
-                    where x.EmailRelawan == email
+                    where x.EmailRelawan.Equals(email)
                     select x).FirstOrDefault();
+        }
+        public static Relawan GetLastRelawan()
+        {
+            return db.Relawans.ToList().LastOrDefault();
         }
     }
 }

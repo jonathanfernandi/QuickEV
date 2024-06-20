@@ -8,18 +8,62 @@ namespace QuickEV_Website.Repository
 {
     public class KomunitasRepository
     {
-        private static Database1Entities1 db = new Database1Entities1 ();
+        private static Database1Entities2 db = new Database1Entities2();
 
-        public static void AddKomunitas(Komunitas komunitas)
+        public static void AddKomunitas(Komunita komunitas)
         {
-            db.Komunitas1.Add(komunitas);
+            db.Komunitas.Add(komunitas);
             db.SaveChanges();
         }
-        public static Komunitas GetKomunitasById(int id)
+        public static Komunita GetKomunitasById(int id)
         {
-            return (from x in db.Komunitas1
+            return (from x in db.Komunitas
                     where x.IdKomunitas == id
                     select x).FirstOrDefault();
         }
+        public static Komunita GetLastKomunitas()
+        {
+            return db.Komunitas.ToList().LastOrDefault();
+        }
+        public static Komunita GetKomunitasByName(String name)
+        {
+            return (from x in db.Komunitas
+                    where x.NamaKomunitas.Equals(name)
+                    select x).FirstOrDefault();
+        }
+        public static Komunita GetKomunitasByTelp(String telp)
+        {
+            return (from x in db.Komunitas
+                    where x.TelpKomunitas.Equals(telp)
+                    select x).FirstOrDefault();
+        }
+        public static List<object> GetAllKomunitasForHeader()
+        {
+            var kom = (from komunitas in db.Komunitas
+                       select new
+                       {
+                           LogoKomunitas = komunitas.Logo,
+                           NamaKomunitas = komunitas.NamaKomunitas,
+                           Domisili = komunitas.Provinsi,
+                           Fokus = komunitas.FokusUtama,
+                           CountRelawan = db.DetailKomunitas.Count(d => d.IdKomunitas == komunitas.IdKomunitas),
+                           CountKegiatan = db.Kegiatans.Count(d => d.IdKomunitas == komunitas.IdKomunitas),
+                           IdKomunitas = komunitas.IdKomunitas
+                       }).ToList<object>();
+            return kom;
+        }
+        public static int GetKomunitasCount()
+        {
+            return db.Komunitas.Count();
+        }
+        public static int GetRelawanCount(int idKomunitas)
+        {
+            return db.DetailKomunitas.Count(d => d.IdKomunitas == idKomunitas);
+        }
+        public static int GetKegiatanCount(int idKomunitas)
+        {
+            return db.Kegiatans.Count(d => d.IdKomunitas == idKomunitas);
+        }
+
     }
 }

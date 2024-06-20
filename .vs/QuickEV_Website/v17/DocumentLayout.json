@@ -1,26 +1,106 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Vinson\\BINUS\\SEMESTER 4\\Software Engineering\\FILE GABUNGAN\\QuickEV_Website_vinson\\QuickEV-Website-Progress-1\\",
+  "WorkspaceRootPath": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|c:\\vinson\\binus\\semester 4\\software engineering\\file gabungan\\quickev_website_vinson\\quickev-website-progress-1\\quickev_website\\views\\aspx\\tentangkamipage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\views\\aspx\\tentangkamipage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|c:\\users\\tisha\\source\\repos\\quickev_website\\quickev_website\\views\\css\\komunitasdetailpage_css.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\views\\css\\komunitasdetailpage_css.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|c:\\vinson\\binus\\semester 4\\software engineering\\file gabungan\\quickev_website_vinson\\quickev-website-progress-1\\quickev_website\\views\\css\\tentangkamipage_css.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\views\\css\\tentangkamipage_css.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\quickev_website\\repository\\komunitasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\repository\\komunitasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|C:\\Vinson\\BINUS\\SEMESTER 4\\Software Engineering\\FILE GABUNGAN\\QuickEV_Website_vinson\\QuickEV-Website-Progress-1\\quickev_website\\views\\css\\signinpage_css.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\views\\css\\signinpage_css.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\quickev_website\\views\\aspx\\carikomunitaspage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\views\\aspx\\carikomunitaspage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|C:\\Vinson\\BINUS\\SEMESTER 4\\Software Engineering\\FILE GABUNGAN\\QuickEV_Website_vinson\\QuickEV-Website-Progress-1\\quickev_website\\views\\css\\carikegiatanpage_css.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|c:\\users\\tisha\\source\\repos\\quickev_website\\quickev_website\\views\\aspx\\komunitasdetailpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\views\\aspx\\komunitasdetailpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|c:\\users\\tisha\\source\\repos\\quickev_website\\quickev_website\\views\\aspx\\komunitasdetailpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\views\\aspx\\komunitasdetailpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\quickev_website\\views\\css\\kegiatandetail2page_css.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\views\\css\\kegiatandetail2page_css.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\quickev_website\\views\\css\\carikomunitaspage_css.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\views\\css\\carikomunitaspage_css.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\quickev_website\\views\\aspx\\kegiatandetail2page.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\views\\aspx\\kegiatandetail2page.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\quickev_website\\views\\aspx\\kegiatandetail2page.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\views\\aspx\\kegiatandetail2page.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\quickev_website\\views\\aspx\\carikomunitaspage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\views\\aspx\\carikomunitaspage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\quickev_website\\handler\\komunitashandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\handler\\komunitashandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\quickev_website\\controller\\komunitascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\controller\\komunitascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\quickev_website\\views\\aspx\\carikegiatanpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\views\\aspx\\carikegiatanpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\quickev_website\\views\\css\\carikegiatanpage_css.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\views\\css\\carikegiatanpage_css.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|C:\\Vinson\\BINUS\\SEMESTER 4\\Software Engineering\\FILE GABUNGAN\\QuickEV_Website_vinson\\QuickEV-Website-Progress-1\\quickev_website\\views\\css\\signuppage_css.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\views\\css\\signuppage_css.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\quickev_website\\views\\aspx\\carikegiatanpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\views\\aspx\\carikegiatanpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\quickev_website\\repository\\kegiatanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\repository\\kegiatanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\quickev_website\\views\\aspx\\kegiatanpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\views\\aspx\\kegiatanpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\quickev_website\\factory\\detailkegiatanfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\factory\\detailkegiatanfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\quickev_website\\views\\aspx\\kegiatandetailpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\views\\aspx\\kegiatandetailpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\quickev_website\\views\\css\\kegiatanpage_css.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\views\\css\\kegiatanpage_css.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\quickev_website\\views\\css\\kegiatandetailpage_css.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\views\\css\\kegiatandetailpage_css.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\quickev_website\\views\\aspx\\kegiatanpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\views\\aspx\\kegiatanpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\quickev_website\\controller\\kegiatancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\controller\\kegiatancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\quickev_website\\handler\\kegiatanhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\handler\\kegiatanhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\quickev_website\\views\\aspx\\kegiatandetailpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\views\\aspx\\kegiatandetailpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,84 +109,362 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 277,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 335,
+          "SelectedChildIndex": 23,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "KegiatanDetailPage.aspx",
+              "DocumentMoniker": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\ASPX\\KegiatanDetailPage.aspx",
+              "RelativeDocumentMoniker": "QuickEV_Website\\Views\\ASPX\\KegiatanDetailPage.aspx",
+              "ToolTip": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\ASPX\\KegiatanDetailPage.aspx",
+              "RelativeToolTip": "QuickEV_Website\\Views\\ASPX\\KegiatanDetailPage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-18T04:27:43.007Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TentangKamiPage_CSS.css",
-              "DocumentMoniker": "C:\\Vinson\\BINUS\\SEMESTER 4\\Software Engineering\\FILE GABUNGAN\\QuickEV_Website_vinson\\QuickEV-Website-Progress-1\\QuickEV_Website\\Views\\CSS\\TentangKamiPage_CSS.css",
-              "RelativeDocumentMoniker": "QuickEV_Website\\Views\\CSS\\TentangKamiPage_CSS.css",
-              "ToolTip": "C:\\Vinson\\BINUS\\SEMESTER 4\\Software Engineering\\FILE GABUNGAN\\QuickEV_Website_vinson\\QuickEV-Website-Progress-1\\QuickEV_Website\\Views\\CSS\\TentangKamiPage_CSS.css",
-              "RelativeToolTip": "QuickEV_Website\\Views\\CSS\\TentangKamiPage_CSS.css",
-              "ViewState": "AQIAABwBAAAAAAAAAAAqwD4BAAAXAAAA",
+              "DocumentIndex": 20,
+              "Title": "KegiatanDetailPage_CSS.css",
+              "DocumentMoniker": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\CSS\\KegiatanDetailPage_CSS.css",
+              "RelativeDocumentMoniker": "QuickEV_Website\\Views\\CSS\\KegiatanDetailPage_CSS.css",
+              "ToolTip": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\CSS\\KegiatanDetailPage_CSS.css",
+              "RelativeToolTip": "QuickEV_Website\\Views\\CSS\\KegiatanDetailPage_CSS.css",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAUwFkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-17T06:08:45.362Z",
+              "WhenOpened": "2024-06-18T04:52:25.614Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "KegiatanDetailPage.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\ASPX\\KegiatanDetailPage.aspx.cs",
+              "RelativeDocumentMoniker": "QuickEV_Website\\Views\\ASPX\\KegiatanDetailPage.aspx.cs",
+              "ToolTip": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\ASPX\\KegiatanDetailPage.aspx.cs",
+              "RelativeToolTip": "QuickEV_Website\\Views\\ASPX\\KegiatanDetailPage.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T06:48:59.881Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "KegiatanController.cs",
+              "DocumentMoniker": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Controller\\KegiatanController.cs",
+              "RelativeDocumentMoniker": "QuickEV_Website\\Controller\\KegiatanController.cs",
+              "ToolTip": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Controller\\KegiatanController.cs",
+              "RelativeToolTip": "QuickEV_Website\\Controller\\KegiatanController.cs",
+              "ViewState": "AQIAAO4BAAAAAAAAAAA4wAQCAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T06:45:33.643Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "KegiatanHandler.cs",
+              "DocumentMoniker": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Handler\\KegiatanHandler.cs",
+              "RelativeDocumentMoniker": "QuickEV_Website\\Handler\\KegiatanHandler.cs",
+              "ToolTip": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Handler\\KegiatanHandler.cs",
+              "RelativeToolTip": "QuickEV_Website\\Handler\\KegiatanHandler.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAAAFMAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T07:09:26.155Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "KegiatanRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Repository\\KegiatanRepository.cs",
+              "RelativeDocumentMoniker": "QuickEV_Website\\Repository\\KegiatanRepository.cs",
+              "ToolTip": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Repository\\KegiatanRepository.cs",
+              "RelativeToolTip": "QuickEV_Website\\Repository\\KegiatanRepository.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAgwCYAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T16:56:23.939Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DetailKegiatanFactory.cs",
+              "DocumentMoniker": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Factory\\DetailKegiatanFactory.cs",
+              "RelativeDocumentMoniker": "QuickEV_Website\\Factory\\DetailKegiatanFactory.cs",
+              "ToolTip": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Factory\\DetailKegiatanFactory.cs",
+              "RelativeToolTip": "QuickEV_Website\\Factory\\DetailKegiatanFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T05:58:51.715Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "KegiatanPage.aspx",
+              "DocumentMoniker": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\ASPX\\KegiatanPage.aspx",
+              "RelativeDocumentMoniker": "QuickEV_Website\\Views\\ASPX\\KegiatanPage.aspx",
+              "ToolTip": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\ASPX\\KegiatanPage.aspx",
+              "RelativeToolTip": "QuickEV_Website\\Views\\ASPX\\KegiatanPage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-19T05:05:57.865Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "KegiatanPage_CSS.css",
+              "DocumentMoniker": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\CSS\\KegiatanPage_CSS.css",
+              "RelativeDocumentMoniker": "QuickEV_Website\\Views\\CSS\\KegiatanPage_CSS.css",
+              "ToolTip": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\CSS\\KegiatanPage_CSS.css",
+              "RelativeToolTip": "QuickEV_Website\\Views\\CSS\\KegiatanPage_CSS.css",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAA8AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-19T05:05:54.332Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "KegiatanPage.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\ASPX\\KegiatanPage.aspx.cs",
+              "RelativeDocumentMoniker": "QuickEV_Website\\Views\\ASPX\\KegiatanPage.aspx.cs",
+              "ToolTip": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\ASPX\\KegiatanPage.aspx.cs",
+              "RelativeToolTip": "QuickEV_Website\\Views\\ASPX\\KegiatanPage.aspx.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwDQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T05:13:17.193Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CariKegiatanPage.aspx",
+              "DocumentMoniker": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\ASPX\\CariKegiatanPage.aspx",
+              "RelativeDocumentMoniker": "QuickEV_Website\\Views\\ASPX\\CariKegiatanPage.aspx",
+              "ToolTip": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\ASPX\\CariKegiatanPage.aspx",
+              "RelativeToolTip": "QuickEV_Website\\Views\\ASPX\\CariKegiatanPage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-19T04:38:10.795Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CariKegiatanPage_CSS.css",
+              "DocumentMoniker": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\CSS\\CariKegiatanPage_CSS.css",
+              "RelativeDocumentMoniker": "QuickEV_Website\\Views\\CSS\\CariKegiatanPage_CSS.css",
+              "ToolTip": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\CSS\\CariKegiatanPage_CSS.css",
+              "RelativeToolTip": "QuickEV_Website\\Views\\CSS\\CariKegiatanPage_CSS.css",
+              "ViewState": "AQIAAKUAAAAAAAAAAAAAALIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-19T04:39:00.79Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CariKegiatanPage.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\ASPX\\CariKegiatanPage.aspx.cs",
+              "RelativeDocumentMoniker": "QuickEV_Website\\Views\\ASPX\\CariKegiatanPage.aspx.cs",
+              "ToolTip": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\ASPX\\CariKegiatanPage.aspx.cs",
+              "RelativeToolTip": "QuickEV_Website\\Views\\ASPX\\CariKegiatanPage.aspx.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T05:13:34.163Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "KegiatanDetail2Page.aspx",
+              "DocumentMoniker": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\ASPX\\KegiatanDetail2Page.aspx",
+              "RelativeDocumentMoniker": "QuickEV_Website\\Views\\ASPX\\KegiatanDetail2Page.aspx",
+              "ToolTip": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\ASPX\\KegiatanDetail2Page.aspx",
+              "RelativeToolTip": "QuickEV_Website\\Views\\ASPX\\KegiatanDetail2Page.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-19T05:28:59.561Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "KegiatanDetail2Page_CSS.css",
+              "DocumentMoniker": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\CSS\\KegiatanDetail2Page_CSS.css",
+              "RelativeDocumentMoniker": "QuickEV_Website\\Views\\CSS\\KegiatanDetail2Page_CSS.css",
+              "ToolTip": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\CSS\\KegiatanDetail2Page_CSS.css",
+              "RelativeToolTip": "QuickEV_Website\\Views\\CSS\\KegiatanDetail2Page_CSS.css",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-19T05:30:34.038Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "KegiatanDetail2Page.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\ASPX\\KegiatanDetail2Page.aspx.cs",
+              "RelativeDocumentMoniker": "QuickEV_Website\\Views\\ASPX\\KegiatanDetail2Page.aspx.cs",
+              "ToolTip": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\ASPX\\KegiatanDetail2Page.aspx.cs",
+              "RelativeToolTip": "QuickEV_Website\\Views\\ASPX\\KegiatanDetail2Page.aspx.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAcwB8AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T05:30:31.964Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SignInPage_CSS.css",
-              "DocumentMoniker": "C:\\Vinson\\BINUS\\SEMESTER 4\\Software Engineering\\FILE GABUNGAN\\QuickEV_Website_vinson\\QuickEV-Website-Progress-1\\QuickEV_Website\\Views\\CSS\\SignInPage_CSS.css",
-              "RelativeDocumentMoniker": "QuickEV_Website\\Views\\CSS\\SignInPage_CSS.css",
-              "ToolTip": "C:\\Vinson\\BINUS\\SEMESTER 4\\Software Engineering\\FILE GABUNGAN\\QuickEV_Website_vinson\\QuickEV-Website-Progress-1\\QuickEV_Website\\Views\\CSS\\SignInPage_CSS.css",
-              "RelativeToolTip": "QuickEV_Website\\Views\\CSS\\SignInPage_CSS.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-18T04:05:46.695Z"
+              "Title": "CariKomunitasPage.aspx",
+              "DocumentMoniker": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\ASPX\\CariKomunitasPage.aspx",
+              "RelativeDocumentMoniker": "QuickEV_Website\\Views\\ASPX\\CariKomunitasPage.aspx",
+              "ToolTip": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\ASPX\\CariKomunitasPage.aspx",
+              "RelativeToolTip": "QuickEV_Website\\Views\\ASPX\\CariKomunitasPage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-19T14:04:45.845Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CariKegiatanPage_CSS.css",
-              "DocumentMoniker": "C:\\Vinson\\BINUS\\SEMESTER 4\\Software Engineering\\FILE GABUNGAN\\QuickEV_Website_vinson\\QuickEV-Website-Progress-1\\QuickEV_Website\\Views\\CSS\\CariKegiatanPage_CSS.css",
-              "RelativeDocumentMoniker": "QuickEV_Website\\Views\\CSS\\CariKegiatanPage_CSS.css",
-              "ToolTip": "C:\\Vinson\\BINUS\\SEMESTER 4\\Software Engineering\\FILE GABUNGAN\\QuickEV_Website_vinson\\QuickEV-Website-Progress-1\\QuickEV_Website\\Views\\CSS\\CariKegiatanPage_CSS.css",
-              "RelativeToolTip": "QuickEV_Website\\Views\\CSS\\CariKegiatanPage_CSS.css",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 6,
+              "Title": "CariKomunitasPage_CSS.css",
+              "DocumentMoniker": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\CSS\\CariKomunitasPage_CSS.css",
+              "RelativeDocumentMoniker": "QuickEV_Website\\Views\\CSS\\CariKomunitasPage_CSS.css",
+              "ToolTip": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\CSS\\CariKomunitasPage_CSS.css",
+              "RelativeToolTip": "QuickEV_Website\\Views\\CSS\\CariKomunitasPage_CSS.css",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAAAIgAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-17T09:53:40.424Z"
+              "WhenOpened": "2024-06-19T14:06:43.247Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CariKomunitasPage.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\ASPX\\CariKomunitasPage.aspx.cs",
+              "RelativeDocumentMoniker": "QuickEV_Website\\Views\\ASPX\\CariKomunitasPage.aspx.cs",
+              "ToolTip": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\ASPX\\CariKomunitasPage.aspx.cs",
+              "RelativeToolTip": "QuickEV_Website\\Views\\ASPX\\CariKomunitasPage.aspx.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBoAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T15:17:35.887Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KomunitasRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Repository\\KomunitasRepository.cs",
+              "RelativeDocumentMoniker": "QuickEV_Website\\Repository\\KomunitasRepository.cs",
+              "ToolTip": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Repository\\KomunitasRepository.cs",
+              "RelativeToolTip": "QuickEV_Website\\Repository\\KomunitasRepository.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAwwDcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T15:18:07.88Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "KomunitasHandler.cs",
+              "DocumentMoniker": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Handler\\KomunitasHandler.cs",
+              "RelativeDocumentMoniker": "QuickEV_Website\\Handler\\KomunitasHandler.cs",
+              "ToolTip": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Handler\\KomunitasHandler.cs",
+              "RelativeToolTip": "QuickEV_Website\\Handler\\KomunitasHandler.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAgwDEAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T16:09:15.537Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "KomunitasController.cs",
+              "DocumentMoniker": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Controller\\KomunitasController.cs",
+              "RelativeDocumentMoniker": "QuickEV_Website\\Controller\\KomunitasController.cs",
+              "ToolTip": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Controller\\KomunitasController.cs",
+              "RelativeToolTip": "QuickEV_Website\\Controller\\KomunitasController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwB0AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T16:09:19.305Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "SignUpPage_CSS.css",
-              "DocumentMoniker": "C:\\Vinson\\BINUS\\SEMESTER 4\\Software Engineering\\FILE GABUNGAN\\QuickEV_Website_vinson\\QuickEV-Website-Progress-1\\QuickEV_Website\\Views\\CSS\\SignUpPage_CSS.css",
-              "RelativeDocumentMoniker": "QuickEV_Website\\Views\\CSS\\SignUpPage_CSS.css",
-              "ToolTip": "C:\\Vinson\\BINUS\\SEMESTER 4\\Software Engineering\\FILE GABUNGAN\\QuickEV_Website_vinson\\QuickEV-Website-Progress-1\\QuickEV_Website\\Views\\CSS\\SignUpPage_CSS.css",
-              "RelativeToolTip": "QuickEV_Website\\Views\\CSS\\SignUpPage_CSS.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-18T04:05:59.409Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 393,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "Title": "KomunitasDetailPage.aspx",
+              "DocumentMoniker": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\ASPX\\KomunitasDetailPage.aspx",
+              "RelativeDocumentMoniker": "QuickEV_Website\\Views\\ASPX\\KomunitasDetailPage.aspx",
+              "ToolTip": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\ASPX\\KomunitasDetailPage.aspx",
+              "RelativeToolTip": "QuickEV_Website\\Views\\ASPX\\KomunitasDetailPage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-20T04:18:57.27Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TentangKamiPage.aspx",
-              "DocumentMoniker": "C:\\Vinson\\BINUS\\SEMESTER 4\\Software Engineering\\FILE GABUNGAN\\QuickEV_Website_vinson\\QuickEV-Website-Progress-1\\QuickEV_Website\\Views\\ASPX\\TentangKamiPage.aspx",
-              "RelativeDocumentMoniker": "QuickEV_Website\\Views\\ASPX\\TentangKamiPage.aspx",
-              "ToolTip": "C:\\Vinson\\BINUS\\SEMESTER 4\\Software Engineering\\FILE GABUNGAN\\QuickEV_Website_vinson\\QuickEV-Website-Progress-1\\QuickEV_Website\\Views\\ASPX\\TentangKamiPage.aspx",
-              "RelativeToolTip": "QuickEV_Website\\Views\\ASPX\\TentangKamiPage.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-17T05:56:50.428Z",
+              "Title": "KomunitasDetailPage_CSS.css",
+              "DocumentMoniker": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\CSS\\KomunitasDetailPage_CSS.css",
+              "RelativeDocumentMoniker": "QuickEV_Website\\Views\\CSS\\KomunitasDetailPage_CSS.css",
+              "ToolTip": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\CSS\\KomunitasDetailPage_CSS.css",
+              "RelativeToolTip": "QuickEV_Website\\Views\\CSS\\KomunitasDetailPage_CSS.css",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-20T04:19:23.473Z",
+              "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KomunitasDetailPage.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\ASPX\\KomunitasDetailPage.aspx.cs",
+              "RelativeDocumentMoniker": "QuickEV_Website\\Views\\ASPX\\KomunitasDetailPage.aspx.cs",
+              "ToolTip": "C:\\Users\\tisha\\source\\repos\\QuickEV_Website\\QuickEV_Website\\Views\\ASPX\\KomunitasDetailPage.aspx.cs",
+              "RelativeToolTip": "QuickEV_Website\\Views\\ASPX\\KomunitasDetailPage.aspx.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAtwBIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T05:36:14.459Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }
