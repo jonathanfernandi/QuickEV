@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tisha\\OneDrive\\Documents\\Coolyeah\\Semester 4\\Software Engineering\\AOL\\QuickEV_Website_Full\\",
+  "WorkspaceRootPath": "C:\\Vinson\\BINUS\\SEMESTER 4\\Software Engineering\\FILE GABUNGAN\\QuickEV_Website_vinson\\QuickEV-Website-Progress-1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|c:\\users\\tisha\\onedrive\\documents\\coolyeah\\semester 4\\software engineering\\aol\\quickev_website_full\\quickev_website\\views\\aspx\\carikegiatanpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\views\\aspx\\carikegiatanpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|c:\\vinson\\binus\\semester 4\\software engineering\\file gabungan\\quickev_website_vinson\\quickev-website-progress-1\\quickev_website\\views\\aspx\\tentangkamipage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\views\\aspx\\tentangkamipage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|c:\\users\\tisha\\onedrive\\documents\\coolyeah\\semester 4\\software engineering\\aol\\quickev_website_full\\quickev_website\\repository\\komunitasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\repository\\komunitasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|c:\\vinson\\binus\\semester 4\\software engineering\\file gabungan\\quickev_website_vinson\\quickev-website-progress-1\\quickev_website\\views\\css\\tentangkamipage_css.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\views\\css\\tentangkamipage_css.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|C:\\Users\\tisha\\OneDrive\\Documents\\Coolyeah\\Semester 4\\Software Engineering\\AOL\\QuickEV_Website_Full\\quickev_website\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|C:\\Vinson\\BINUS\\SEMESTER 4\\Software Engineering\\FILE GABUNGAN\\QuickEV_Website_vinson\\QuickEV-Website-Progress-1\\quickev_website\\views\\css\\signinpage_css.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\views\\css\\signinpage_css.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|C:\\Users\\tisha\\OneDrive\\Documents\\Coolyeah\\Semester 4\\Software Engineering\\AOL\\QuickEV_Website_Full\\quickev_website\\repository\\relawanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\repository\\relawanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|C:\\Vinson\\BINUS\\SEMESTER 4\\Software Engineering\\FILE GABUNGAN\\QuickEV_Website_vinson\\QuickEV-Website-Progress-1\\quickev_website\\views\\css\\carikegiatanpage_css.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\views\\css\\carikegiatanpage_css.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|C:\\Vinson\\BINUS\\SEMESTER 4\\Software Engineering\\FILE GABUNGAN\\QuickEV_Website_vinson\\QuickEV-Website-Progress-1\\quickev_website\\views\\css\\signuppage_css.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{13692FA7-F937-4BC5-862E-F9389CD62FD4}|QuickEV_Website\\QuickEV_Website.csproj|solutionrelative:quickev_website\\views\\css\\signuppage_css.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,7 +29,66 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 335,
+          "DockedWidth": 277,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TentangKamiPage_CSS.css",
+              "DocumentMoniker": "C:\\Vinson\\BINUS\\SEMESTER 4\\Software Engineering\\FILE GABUNGAN\\QuickEV_Website_vinson\\QuickEV-Website-Progress-1\\QuickEV_Website\\Views\\CSS\\TentangKamiPage_CSS.css",
+              "RelativeDocumentMoniker": "QuickEV_Website\\Views\\CSS\\TentangKamiPage_CSS.css",
+              "ToolTip": "C:\\Vinson\\BINUS\\SEMESTER 4\\Software Engineering\\FILE GABUNGAN\\QuickEV_Website_vinson\\QuickEV-Website-Progress-1\\QuickEV_Website\\Views\\CSS\\TentangKamiPage_CSS.css",
+              "RelativeToolTip": "QuickEV_Website\\Views\\CSS\\TentangKamiPage_CSS.css",
+              "ViewState": "AQIAABwBAAAAAAAAAAAqwD4BAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-17T06:08:45.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SignInPage_CSS.css",
+              "DocumentMoniker": "C:\\Vinson\\BINUS\\SEMESTER 4\\Software Engineering\\FILE GABUNGAN\\QuickEV_Website_vinson\\QuickEV-Website-Progress-1\\QuickEV_Website\\Views\\CSS\\SignInPage_CSS.css",
+              "RelativeDocumentMoniker": "QuickEV_Website\\Views\\CSS\\SignInPage_CSS.css",
+              "ToolTip": "C:\\Vinson\\BINUS\\SEMESTER 4\\Software Engineering\\FILE GABUNGAN\\QuickEV_Website_vinson\\QuickEV-Website-Progress-1\\QuickEV_Website\\Views\\CSS\\SignInPage_CSS.css",
+              "RelativeToolTip": "QuickEV_Website\\Views\\CSS\\SignInPage_CSS.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-18T04:05:46.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CariKegiatanPage_CSS.css",
+              "DocumentMoniker": "C:\\Vinson\\BINUS\\SEMESTER 4\\Software Engineering\\FILE GABUNGAN\\QuickEV_Website_vinson\\QuickEV-Website-Progress-1\\QuickEV_Website\\Views\\CSS\\CariKegiatanPage_CSS.css",
+              "RelativeDocumentMoniker": "QuickEV_Website\\Views\\CSS\\CariKegiatanPage_CSS.css",
+              "ToolTip": "C:\\Vinson\\BINUS\\SEMESTER 4\\Software Engineering\\FILE GABUNGAN\\QuickEV_Website_vinson\\QuickEV-Website-Progress-1\\QuickEV_Website\\Views\\CSS\\CariKegiatanPage_CSS.css",
+              "RelativeToolTip": "QuickEV_Website\\Views\\CSS\\CariKegiatanPage_CSS.css",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-17T09:53:40.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SignUpPage_CSS.css",
+              "DocumentMoniker": "C:\\Vinson\\BINUS\\SEMESTER 4\\Software Engineering\\FILE GABUNGAN\\QuickEV_Website_vinson\\QuickEV-Website-Progress-1\\QuickEV_Website\\Views\\CSS\\SignUpPage_CSS.css",
+              "RelativeDocumentMoniker": "QuickEV_Website\\Views\\CSS\\SignUpPage_CSS.css",
+              "ToolTip": "C:\\Vinson\\BINUS\\SEMESTER 4\\Software Engineering\\FILE GABUNGAN\\QuickEV_Website_vinson\\QuickEV-Website-Progress-1\\QuickEV_Website\\Views\\CSS\\SignUpPage_CSS.css",
+              "RelativeToolTip": "QuickEV_Website\\Views\\CSS\\SignUpPage_CSS.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-18T04:05:59.409Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 393,
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -35,52 +98,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CariKegiatanPage.aspx",
-              "DocumentMoniker": "C:\\Users\\tisha\\OneDrive\\Documents\\Coolyeah\\Semester 4\\Software Engineering\\AOL\\QuickEV_Website_Full\\QuickEV_Website\\Views\\ASPX\\CariKegiatanPage.aspx",
-              "RelativeDocumentMoniker": "QuickEV_Website\\Views\\ASPX\\CariKegiatanPage.aspx",
-              "ToolTip": "C:\\Users\\tisha\\OneDrive\\Documents\\Coolyeah\\Semester 4\\Software Engineering\\AOL\\QuickEV_Website_Full\\QuickEV_Website\\Views\\ASPX\\CariKegiatanPage.aspx",
-              "RelativeToolTip": "QuickEV_Website\\Views\\ASPX\\CariKegiatanPage.aspx",
+              "Title": "TentangKamiPage.aspx",
+              "DocumentMoniker": "C:\\Vinson\\BINUS\\SEMESTER 4\\Software Engineering\\FILE GABUNGAN\\QuickEV_Website_vinson\\QuickEV-Website-Progress-1\\QuickEV_Website\\Views\\ASPX\\TentangKamiPage.aspx",
+              "RelativeDocumentMoniker": "QuickEV_Website\\Views\\ASPX\\TentangKamiPage.aspx",
+              "ToolTip": "C:\\Vinson\\BINUS\\SEMESTER 4\\Software Engineering\\FILE GABUNGAN\\QuickEV_Website_vinson\\QuickEV-Website-Progress-1\\QuickEV_Website\\Views\\ASPX\\TentangKamiPage.aspx",
+              "RelativeToolTip": "QuickEV_Website\\Views\\ASPX\\TentangKamiPage.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-09T18:35:27.529Z",
+              "WhenOpened": "2024-06-17T05:56:50.428Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "KomunitasRepository.cs",
-              "DocumentMoniker": "C:\\Users\\tisha\\OneDrive\\Documents\\Coolyeah\\Semester 4\\Software Engineering\\AOL\\QuickEV_Website_Full\\QuickEV_Website\\Repository\\KomunitasRepository.cs",
-              "RelativeDocumentMoniker": "QuickEV_Website\\Repository\\KomunitasRepository.cs",
-              "ToolTip": "C:\\Users\\tisha\\OneDrive\\Documents\\Coolyeah\\Semester 4\\Software Engineering\\AOL\\QuickEV_Website_Full\\QuickEV_Website\\Repository\\KomunitasRepository.cs",
-              "RelativeToolTip": "QuickEV_Website\\Repository\\KomunitasRepository.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBUAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T15:21:24.071Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RelawanRepository.cs",
-              "DocumentMoniker": "C:\\Users\\tisha\\OneDrive\\Documents\\Coolyeah\\Semester 4\\Software Engineering\\AOL\\QuickEV_Website_Full\\QuickEV_Website\\Repository\\RelawanRepository.cs",
-              "RelativeDocumentMoniker": "QuickEV_Website\\Repository\\RelawanRepository.cs",
-              "ToolTip": "C:\\Users\\tisha\\OneDrive\\Documents\\Coolyeah\\Semester 4\\Software Engineering\\AOL\\QuickEV_Website_Full\\QuickEV_Website\\Repository\\RelawanRepository.cs",
-              "RelativeToolTip": "QuickEV_Website\\Repository\\RelawanRepository.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBoAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T15:21:30.58Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\tisha\\OneDrive\\Documents\\Coolyeah\\Semester 4\\Software Engineering\\AOL\\QuickEV_Website_Full\\QuickEV_Website\\Repository\\UserRepository.cs",
-              "RelativeDocumentMoniker": "QuickEV_Website\\Repository\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\tisha\\OneDrive\\Documents\\Coolyeah\\Semester 4\\Software Engineering\\AOL\\QuickEV_Website_Full\\QuickEV_Website\\Repository\\UserRepository.cs",
-              "RelativeToolTip": "QuickEV_Website\\Repository\\UserRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T15:21:37.919Z"
             }
           ]
         }

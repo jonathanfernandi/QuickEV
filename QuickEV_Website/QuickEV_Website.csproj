@@ -85,10 +85,15 @@
     <Content Include="Assets\Images\komunitas_SignUp_Logo.png" />
     <Content Include="Assets\Images\location.png" />
     <Content Include="Assets\Images\Logo.png" />
+    <Content Include="Assets\Images\Profile_Video_resize.mp4" />
     <Content Include="Assets\Images\QuickEV-Logo-Black.png" />
     <Content Include="Assets\Images\QuickEV_Whitelogo.png" />
     <Content Include="Assets\Images\relawan_cariaktivitas.jpg" />
     <Content Include="Assets\Images\relawan_SignUp_Logo.png" />
+    <Content Include="Assets\Images\SearchWhite_Icon.png" />
+    <Content Include="Assets\Images\TentangKami_CariOrganisasi.jpg" />
+    <Content Include="Assets\Images\TentangKami_Donasi.jpg" />
+    <Content Include="Assets\Images\TentangKami_Welcome.jpg" />
     <Content Include="Assets\Images\twitter.png" />
     <Content Include="Model\Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -105,12 +110,14 @@
     <Content Include="Views\ASPX\RelawanSignUpPage.aspx" />
     <Content Include="Views\ASPX\SignInPage.aspx" />
     <Content Include="Views\ASPX\SignUpPage.aspx" />
+    <Content Include="Views\ASPX\TentangKamiPage.aspx" />
     <Content Include="Views\CSS\CariKegiatanPage_CSS.css" />
     <Content Include="Views\CSS\KomunitasSignUpPage_CSS.css" />
     <Content Include="Views\CSS\Nav-bar_CSS.css" />
     <Content Include="Views\CSS\RelawanSignUpPage_CSS.css" />
     <Content Include="Views\CSS\SignInPage_CSS.css" />
     <Content Include="Views\CSS\SignUpPage_CSS.css" />
+    <Content Include="Views\CSS\TentangKamiPage_CSS.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -186,6 +193,13 @@
     </Compile>
     <Compile Include="Views\ASPX\sitemasternavbar.Master.designer.cs">
       <DependentUpon>sitemasternavbar.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ASPX\TentangKamiPage.aspx.cs">
+      <DependentUpon>TentangKamiPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ASPX\TentangKamiPage.aspx.designer.cs">
+      <DependentUpon>TentangKamiPage.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -43,19 +43,63 @@
 }
 .TemukanKegiatan_Container {
     background-color: #566246;
-    text-align: center;
-    border-radius:10px;
+    text-align:center;
+    border-radius:12px;
     width:376px;
     height:67px;
-    display:flex;
-    text-align:center;
-    align-content:center;
     align-items:center;
-    justify-content:center;
 }
-.Welcome_CariKegiatan_Container_Text3 {
+.Welcome_CariKegiatan_Container_LeftContent {
     font-family: 'Plus Jakarta Sans',sans-serif;
     font-weight: 800;
     font-size: 25px;
     color: rgba(255,255,255,0.81);      
+    display:flex;
+    float:left;
+    align-items:center;
+    text-align:center;
+    margin-left:18px;
+    margin-top:16px;
+}
+
+.Welcome_CariKegiatan_Container_RightContent {
+    float: right;
+    width: 50px;
+    border-bottom: 67px solid #1F1F1F;
+    border-left: 25px solid rgba(0,0,0,0);
+    display: flex;
+    position:relative;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.Welcome_CariKegiatan_SearchIcon {
+    width: 48px;
+    height: 58px;
+    position: absolute;
+    top: 100%;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+
+
+/* CSS Pencarian Aktivitas*/
+.AktivitasSearch_Container{
+    margin-top:30px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.TotalAktivitas_Container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.TotalAktivitas_Text{
+    font-family: 'Inter',sans-serif;
 }
