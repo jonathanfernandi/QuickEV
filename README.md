@@ -20,9 +20,9 @@ A big thank you to our talented development team, consisting of Tisha Jillian, T
 We also extend our deepest gratitude to Ms. Ghinaa Zain Nabiilah, S.Kom., M.Kom. and Mr. Anderies, B.Eng., S.Kom., M.Kom. for their invaluable guidance and mentorship during our Software Engineering and Agile Software Development courses at BINUS University. Their insightful lectures and support have been instrumental in shaping our project and our growth as developers.
 
 📁 Explore Our Project:
-- Proposal PKM-KC: 
-- Software Documentation: 
-- Final Presentation: 
+- Proposal PKM-KC: https://drive.google.com/file/d/1eRvvBbijzsxrsrzcB8VsUGOGLuwMVXUv/view?usp=sharing
+- Software Documentation: https://drive.google.com/file/d/1YfPf81nEd-O4dVMl1GOP9v9koyLYP51D/view?usp=sharing
+- Final Presentation: https://drive.google.com/file/d/1zZ60wYLNR7ztttQsFjLXY7X-E9dPjxth/view?usp=sharing
 - Figma Design: https://www.figma.com/design/ESKGFw69cYc9wHIHeJqhBp/Mockup-QEV?node-id=0-1&t=3iOxnMgD9yb4TcgP-1
 - GitHub Repository: https://github.com/jonathanfernandi/QuickEV.git
 
