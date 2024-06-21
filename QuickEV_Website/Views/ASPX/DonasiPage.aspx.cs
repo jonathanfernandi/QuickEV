@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuickEV_Website.Controller;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,13 @@ namespace QuickEV_Website.Views.ASPX
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+                if(!UserController.IsUserLoggedIn())
+                {
+                    Response.Redirect("~/Views/ASPX/SignInPage.aspx");
+                }
+            }
         }
     }
 }

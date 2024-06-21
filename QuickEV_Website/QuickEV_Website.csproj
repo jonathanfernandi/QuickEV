@@ -84,10 +84,17 @@
     <Content Include="Assets\Images\Background.png" />
     <Content Include="Assets\Images\back_SignUp.png" />
     <Content Include="Assets\Images\berbagi.jpg" />
+    <Content Include="Assets\Images\book.png" />
+    <Content Include="Assets\Images\box.png" />
     <Content Include="Assets\Images\calendar_logo.png" />
+    <Content Include="Assets\Images\Checked_logo.png" />
     <Content Include="Assets\Images\clock_kegiatan.png" />
+    <Content Include="Assets\Images\ContactUs_KirimPesanPic.png" />
+    <Content Include="Assets\Images\Donasi_Background.jpg" />
     <Content Include="Assets\Images\edit_kegiatan.png" />
+    <Content Include="Assets\Images\email.png" />
     <Content Include="Assets\Images\facebook.png" />
+    <Content Include="Assets\Images\first-aid-kit.png" />
     <Content Include="Assets\Images\focus_cari_komun.png" />
     <Content Include="Assets\Images\heart_donasi.png" />
     <Content Include="Assets\Images\image 10.png" />
@@ -100,6 +107,7 @@
     <Content Include="Assets\Images\location.png" />
     <Content Include="Assets\Images\Logo.png" />
     <Content Include="Assets\Images\MDMC.png" />
+    <Content Include="Assets\Images\medium-shot-people-hugging.jpg" />
     <Content Include="Assets\Images\membangun.jpg" />
     <Content Include="Assets\Images\membantu.jpg" />
     <Content Include="Assets\Images\menjaga.jpeg" />
@@ -114,10 +122,12 @@
     <Content Include="Assets\Images\registration_kegiatan.png" />
     <Content Include="Assets\Images\relawan_cariaktivitas.jpg" />
     <Content Include="Assets\Images\relawan_SignUp_Logo.png" />
+    <Content Include="Assets\Images\supplies.png" />
     <Content Include="Assets\Images\telephone_cari_komun.png" />
     <Content Include="Assets\Images\TentangKami_CariOrganisasi.jpg" />
     <Content Include="Assets\Images\TentangKami_Donasi.jpg" />
     <Content Include="Assets\Images\TentangKami_Welcome.jpg" />
+    <Content Include="Assets\Images\tshirt.png" />
     <Content Include="Assets\Images\twitter.png" />
     <Content Include="Assets\Images\profile_logo.png" />
     <Content Include="Assets\Images\voluntary_cari_komun.png" />
@@ -133,23 +143,38 @@
     </Content>
     <Content Include="Views\ASPX\CariKegiatanPage.aspx" />
     <Content Include="Views\ASPX\CariKomunitasPage.aspx" />
+    <Content Include="Views\ASPX\ContactUsPage.aspx" />
+    <Content Include="Views\ASPX\DonasiBarangForm.aspx" />
     <Content Include="Views\ASPX\DonasiBarangPage.aspx" />
     <Content Include="Views\ASPX\DonasiPage.aspx" />
     <Content Include="Views\ASPX\DonasiUangPage.aspx" />
+    <Content Include="Views\ASPX\EditKomunitasProfilePage.aspx" />
+    <Content Include="Views\ASPX\EditRelawanProfilePage.aspx" />
     <Content Include="Views\ASPX\HomePage.aspx" />
     <Content Include="Views\ASPX\KegiatanDetail2Page.aspx" />
     <Content Include="Views\ASPX\KegiatanDetailPage.aspx" />
     <Content Include="Views\ASPX\KegiatanPage.aspx" />
     <Content Include="Views\ASPX\KomunitasDetailPage.aspx" />
     <Content Include="Views\ASPX\KomunitasSignUpPage.aspx" />
+    <Content Include="Views\ASPX\ProfilePage.aspx" />
     <Content Include="Views\ASPX\RelawanSignUpPage.aspx" />
+    <Content Include="Views\ASPX\SemuaKegiatanRelawanPage.aspx" />
+    <Content Include="Views\ASPX\SemuaKomunitasRelawanPage.aspx" />
+    <Content Include="Views\ASPX\SemuaRelawanKomunitasPage.aspx" />
     <Content Include="Views\ASPX\SignInPage.aspx" />
     <Content Include="Views\ASPX\SignUpPage.aspx" />
     <Content Include="Views\ASPX\TambahKegiatan.aspx" />
     <Content Include="Views\ASPX\TentangKamiPage.aspx" />
+    <Content Include="Views\ASPX\ThankYouPage.aspx" />
     <Content Include="Views\CSS\CariKegiatanPage_CSS.css" />
     <Content Include="Views\CSS\CariKomunitasPage_CSS.css" />
+    <Content Include="Views\CSS\ContactUsPage_CSS.css" />
+    <Content Include="Views\CSS\DonasiBarangForm_CSS.css" />
+    <Content Include="Views\CSS\DonasiBarangPage_CSS.css" />
     <Content Include="Views\CSS\DonasiPage_CSS.css" />
+    <Content Include="Views\CSS\DonasiUangPage_CSS.css" />
+    <Content Include="Views\CSS\EditKomunitasProfilePage_CSS.css" />
+    <Content Include="Views\CSS\EditRelawanProfilePage_CSS.css" />
     <Content Include="Views\CSS\HomePage_CSS.css" />
     <Content Include="Views\CSS\KegiatanDetail2Page_CSS.css" />
     <Content Include="Views\CSS\KegiatanDetailPage_CSS.css" />
@@ -157,11 +182,16 @@
     <Content Include="Views\CSS\KomunitasDetailPage_CSS.css" />
     <Content Include="Views\CSS\KomunitasSignUpPage_CSS.css" />
     <Content Include="Views\CSS\Nav-bar_CSS.css" />
+    <Content Include="Views\CSS\ProfilePage_CSS.css" />
     <Content Include="Views\CSS\RelawanSignUpPage_CSS.css" />
+    <Content Include="Views\CSS\SemuaKegiatanRelawanPage_CSS.css" />
+    <Content Include="Views\CSS\SemuaKomunitasRelawanPage_CSS.css" />
+    <Content Include="Views\CSS\SemuaRelawanKomunitasPage_CSS.css" />
     <Content Include="Views\CSS\SignInPage_CSS.css" />
     <Content Include="Views\CSS\SignUpPage_CSS.css" />
     <Content Include="Views\CSS\TambahKegiatan_CSS.css" />
     <Content Include="Views\CSS\TentangKamiPage_CSS.css" />
+    <Content Include="Views\CSS\ThankYouPage_CSS.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -235,6 +265,20 @@
     <Compile Include="Views\ASPX\CariKomunitasPage.aspx.designer.cs">
       <DependentUpon>CariKomunitasPage.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Views\ASPX\ContactUsPage.aspx.cs">
+      <DependentUpon>ContactUsPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ASPX\ContactUsPage.aspx.designer.cs">
+      <DependentUpon>ContactUsPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ASPX\DonasiBarangForm.aspx.cs">
+      <DependentUpon>DonasiBarangForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ASPX\DonasiBarangForm.aspx.designer.cs">
+      <DependentUpon>DonasiBarangForm.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Views\ASPX\DonasiBarangPage.aspx.cs">
       <DependentUpon>DonasiBarangPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -255,6 +299,20 @@
     </Compile>
     <Compile Include="Views\ASPX\DonasiUangPage.aspx.designer.cs">
       <DependentUpon>DonasiUangPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ASPX\EditKomunitasProfilePage.aspx.cs">
+      <DependentUpon>EditKomunitasProfilePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ASPX\EditKomunitasProfilePage.aspx.designer.cs">
+      <DependentUpon>EditKomunitasProfilePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ASPX\EditRelawanProfilePage.aspx.cs">
+      <DependentUpon>EditRelawanProfilePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ASPX\EditRelawanProfilePage.aspx.designer.cs">
+      <DependentUpon>EditRelawanProfilePage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\ASPX\HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
@@ -298,12 +356,40 @@
     <Compile Include="Views\ASPX\KomunitasSignUpPage.aspx.designer.cs">
       <DependentUpon>KomunitasSignUpPage.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Views\ASPX\ProfilePage.aspx.cs">
+      <DependentUpon>ProfilePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ASPX\ProfilePage.aspx.designer.cs">
+      <DependentUpon>ProfilePage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Views\ASPX\RelawanSignUpPage.aspx.cs">
       <DependentUpon>RelawanSignUpPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Views\ASPX\RelawanSignUpPage.aspx.designer.cs">
       <DependentUpon>RelawanSignUpPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ASPX\SemuaKegiatanRelawanPage.aspx.cs">
+      <DependentUpon>SemuaKegiatanRelawanPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ASPX\SemuaKegiatanRelawanPage.aspx.designer.cs">
+      <DependentUpon>SemuaKegiatanRelawanPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ASPX\SemuaKomunitasRelawanPage.aspx.cs">
+      <DependentUpon>SemuaKomunitasRelawanPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ASPX\SemuaKomunitasRelawanPage.aspx.designer.cs">
+      <DependentUpon>SemuaKomunitasRelawanPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ASPX\SemuaRelawanKomunitasPage.aspx.cs">
+      <DependentUpon>SemuaRelawanKomunitasPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ASPX\SemuaRelawanKomunitasPage.aspx.designer.cs">
+      <DependentUpon>SemuaRelawanKomunitasPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\ASPX\SignInPage.aspx.cs">
       <DependentUpon>SignInPage.aspx</DependentUpon>
@@ -339,6 +425,13 @@
     </Compile>
     <Compile Include="Views\ASPX\TentangKamiPage.aspx.designer.cs">
       <DependentUpon>TentangKamiPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ASPX\ThankYouPage.aspx.cs">
+      <DependentUpon>ThankYouPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ASPX\ThankYouPage.aspx.designer.cs">
+      <DependentUpon>ThankYouPage.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

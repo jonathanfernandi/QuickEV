@@ -29,21 +29,23 @@
                                 <div class="box-name">
                                     <asp:Label ID="nameLbl" runat="server" Text='<%# Eval("NamaKomunitas").ToString().ToUpper() %>' CssClass="nameLbl"></asp:Label>
                                 </div>
-                                <div class="box-domisili">
-                                    <img src="../../Assets/Images/kegiatan_loc_logo.png" />
-                                    <asp:Label ID="domisiliLbl" runat="server" Text='<%# Eval("Domisili") %>' CssClass="domisiliLbl"></asp:Label>
-                                </div>
-                                <div class="box-fokus">
-                                    <img src="../../Assets/Images/focus_cari_komun.png" alt="" />
-                                    <asp:Label ID="fokusLbl" runat="server" Text='<%# Eval("Fokus") %>' CssClass="fokusLbl"></asp:Label>
-                                </div>
-                                <div class="box-activity">
-                                    <img src="../../Assets/Images/voluntary_cari_komun.png" alt="" />
-                                    <span><%# Eval("CountRelawan") + " Relawan"%></span>
-                                </div>
-                                <div class="box-activity">
-                                    <img src="../../Assets/Images/aktivitas_cari_komun.png" alt="" />
-                                    <span><%# Eval("CountKegiatan") + " Kegiatan"%></span>
+                                <div class="box-belowname">
+                                    <div class="box-domisili">
+                                        <img src="../../Assets/Images/kegiatan_loc_logo.png" />
+                                        <asp:Label ID="domisiliLbl" runat="server" Text='<%# Eval("Domisili") %>' CssClass="domisiliLbl"></asp:Label>
+                                    </div>
+                                    <div class="box-fokus">
+                                        <img src="../../Assets/Images/focus_cari_komun.png" alt="" />
+                                        <asp:Label ID="fokusLbl" runat="server" Text='<%# Eval("Fokus") %>' CssClass="fokusLbl"></asp:Label>
+                                    </div>
+                                    <div class="box-activity">
+                                        <img src="../../Assets/Images/voluntary_cari_komun.png" alt="" />
+                                        <span><%# Eval("CountRelawan") + " Relawan"%></span>
+                                    </div>
+                                    <div class="box-activity">
+                                        <img src="../../Assets/Images/aktivitas_cari_komun.png" alt="" />
+                                        <span><%# Eval("CountKegiatan") + " Kegiatan"%></span>
+                                    </div>
                                 </div>
                                 <div class="detail">
                                     <a href='<%#"KomunitasDetailPage.aspx?IdKomunitas=" + Eval("IdKomunitas") %>'><span>Lihat Lengkap</span>

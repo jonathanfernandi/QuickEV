@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/ASPX/sitemasternavbar.Master" AutoEventWireup="true" CodeBehind="ContactUsPage.aspx.cs" Inherits="QuickEV_Website.Views.ASPX.ContactUsPage" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -18,11 +19,12 @@
                 </div>
                 <div class="PesanAnda_Container">
                     <asp:Label ID="PesanAnda_Text" runat="server" Text="Pesan Anda" CssClass="PesanAnda_Text"></asp:Label>
-                    <textarea class="PesanAnda_TxtBox" placeholder="Tinggalkan pesan Anda disini..." rows="20" cols="50"> </textarea>
+                    <asp:TextBox ID="PesanAnda_TxtBox" runat="server" Text="" TextMode="MultiLine" placeholder="Tinggalkan pesan Anda disini..." CssClass="PesanAnda_TxtBox"></asp:TextBox>
+                    <%--<textarea class="PesanAnda_TxtBox" placeholder="Tinggalkan pesan Anda disini..." rows="20" cols="50"> </textarea>--%>
                 </div>
             </div>
             <div class="Submit_Btn">
-                <asp:Button ID="KirimPesan_Btn" runat="server" Text="Kirim Pesan" CssClass="KirimPesan_Btn" OnClick="KirimPesan_Btn_Click"/>
+                <asp:Button ID="KirimPesan_Btn" runat="server" Text="Kirim Pesan" CssClass="KirimPesan_Btn" OnClick="KirimPesan_Btn_Click" />
             </div>
         </div>
         <div class="ContactUs_RightContent">

@@ -1,0 +1,228 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-dark: #566246;
+    --main-light: #F7F2CA;
+    --neutral-dark: #1F1F1F;
+    --neutral-light: #F1F1F1;
+}
+
+.DonatePage_Container {
+    margin-top: 230px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    z-index: 1000;
+}
+
+.Background_Pic {
+    position: absolute;
+    z-index: -100;
+    top: 500px;
+    width: 1000px;
+    height: 300px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.DonatePage_LeftContent {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter',sans-serif;
+}
+
+.DonatePage_Text1 {
+    font-weight: 1000;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.DonatePage_Text2, .DonatePage_Text3 {
+    margin-top: 15px;
+    line-height: 30px;
+}
+
+
+
+/* Donate Form*/
+.DonatePage_RightContent {
+    display: flex;
+    width: 360px;
+    height: 450px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 4px;
+}
+
+.DonateForm_Container {
+    margin-left: 5px;
+    margin-top: 30px;
+    margin-right: 5px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+}
+
+.Ammount_5000, .Ammount_10000, .Ammount_20000, .Ammount_50000, .Ammount_100000 {
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    border: 0.5px solid;
+    border-radius: 4px;
+}
+
+.Donate_Ammount1 {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 4px;
+}
+
+.Donate_Ammount2 {
+    margin-top: 10px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Donate_AmmountTxtBox {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 10px;
+    height: 35px;
+}
+
+.Donate_AmmountBox {
+    width: 320px;
+    text-indent: 10px;
+    border-radius: 4px;
+    border: 0.5px solid;
+}
+
+/*Donate_Name */
+.Donate_Name {
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.DonateName_Txt {
+    margin-left: 15px;
+    font-family: 'Inter',sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.DonateName_TxtBox {
+    width: 320px;
+    text-indent: 10px;
+    border-radius: 4px;
+    border: 0.5px solid;
+    height: 35px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+/*Donate Email*/
+.Donate_Email {
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.DonateEmail_Txt {
+    margin-left: 15px;
+    font-family: 'Inter',sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.DonateEmail_TxtBox {
+    width: 320px;
+    text-indent: 10px;
+    border-radius: 4px;
+    border: 0.5px solid;
+    height: 35px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+/*Card Details*/
+.Donate_Card {
+    display: flex;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.Card_Details, .Card_Expiry, .Card_CVV {
+    display: flex;
+    flex-direction: column;
+}
+
+.Card_Expiry_Text, .Card_Details_Text, .Card_CVV_Text {
+    font-family: 'Inter',sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.Card_Details_TxtBox {
+    width: 180px;
+    text-indent: 10px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: 0.5px solid;
+    height: 35px;
+}
+
+.Card_Expiry_TxtBox {
+    width: 70px;
+    text-indent: 10px;
+    border: 0.5px solid;
+    height: 35px;
+}
+
+.Card_CVV_TxtBox {
+    width: 70px;
+    text-indent: 10px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: 0.5px solid;
+    height: 35px;
+}
+
+/*Donate Button*/
+.DonateSubmit_Btn {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.Donate_Btn {
+    border: 0px;
+    background-color: #95A2C3;
+    width: 320px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
+}

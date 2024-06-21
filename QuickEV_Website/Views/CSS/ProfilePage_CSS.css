@@ -1,0 +1,402 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+:root {
+    --main-dark: #566246;
+    --main-light: #F7F2CA;
+    --neutral-dark: #1F1F1F;
+    --neutral-light: #F1F1F1;
+}
+
+.page {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    background: #566246;
+}
+
+    .page .page-container {
+        margin-top: 105px;
+        padding: 20vh 0 21vh 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+.relawanContainer,
+.komunitasContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 1100px;
+}
+
+.profile,
+.kegiatan,
+.komunitas,
+.relawan {
+    padding: 30px 30px 30px 30px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    width: auto;
+}
+
+.profile {
+    /*    display: flex;
+    flex-direction: column;
+    gap: 10px;*/
+    display: flex;
+    flex-direction: row;
+    /*align-items: center;*/
+    gap: 40px;
+}
+
+.usernameLbl {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.nameLbl {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.counterLbl {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.imgLogo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1.5px solid #566246;
+    object-fit: cover;
+}
+
+.imgLogo2 {
+    width: 150px;
+    height: 150px;
+}
+
+.counter {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.counterBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+    .counterBox img {
+        padding-right: 5px;
+        width: 20px;
+        height: 20px;
+    }
+
+.relawanContainer h1,
+.komunitasContainer h1 {
+    font-weight: 800;
+    font-weight: 800;
+    color: white;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.updateBox {
+    gap: normal;
+}
+
+.updateBtn {
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    background-color: black;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 4px;
+    /*width: 100%;*/
+    color: white;
+}
+
+.kegiatan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.repeaterContainer {
+    /*margin-top: 5vh;*/
+    display: grid;
+    /*        grid-template-rows: repeat(4, 100px);*/
+    grid-template-columns: repeat(4, minmax(100px, 1fr));
+    grid-gap: 30px 30px;
+}
+
+.countZeroLbl {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    height: 470px;
+    width: auto;
+}
+
+.box-title {
+    height: 60px;
+}
+
+.box-komunitasName {
+    height: 30px;
+}
+
+.imgFotoKegiatan {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.box-info {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.titleLbl {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.komunitasNameLbl {
+    font-size: 16px;
+    font-weight: 500;
+    color: grey;
+    padding-bottom: 20px;
+}
+
+.row span {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    height: 25px;
+}
+
+    .row img {
+        width: 20px;
+        height: 20px;
+    }
+
+.detail {
+    margin-top: 25px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    align-content: end;
+}
+
+    .detail a {
+        font-size: 15px;
+        display: inline-block;
+        text-align: center;
+        padding: 0.5rem 1rem;
+        background-color: black;
+        color: #fff;
+        font-weight: 600;
+        text-decoration: none;
+        border-radius: 4px;
+    }
+
+.arrow {
+    margin-left: 7px;
+    width: 14px;
+    height: 14px;
+}
+
+.seeAll {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 50px;
+}
+
+.seeAllBtn {
+    font-size: 18px;
+    display: inline-block;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    background-color: var(--main-dark);
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 4px;
+    /*width: 100%;*/
+    color: white;
+}
+
+.repeaterContainer2 {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(100px, 1fr));
+    grid-gap: 30px 30px;
+    /*padding: 5vh 5vh 5vh 5vh;*/
+}
+
+.countZeroLbl2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    /*overflow: hidden;*/
+    height: 430px;
+    width: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+.image2 {
+    padding: 10px 0 10px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgLogoKomunitas2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 1px #566246;
+    object-fit: cover;
+}
+
+.box-belowname {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.box-info2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.box-name2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 0 0 10px 0;
+    height: 60px;
+}
+
+.nameLbl2 {
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--main-dark);
+    text-align: center;
+}
+
+.box-domisili2,
+.box-fokus2,
+.box-activity2 {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+    .box-domisili2 img,
+    .box-fokus2 img,
+    .box-activity2 img {
+        padding-right: 7px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .domisiliLbl2,
+    .fokusLbl2,
+    .box-activity2 span {
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+.detail2 {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+    .detail2 a {
+        font-size: 15px;
+        display: inline-block;
+        text-align: center;
+        padding: 0.5rem 1rem;
+        background-color: black;
+        color: #fff;
+        font-weight: 600;
+        text-decoration: none;
+        border-radius: 4px;
+    }
+
+.arrow2 {
+    margin-left: 7px;
+    width: 14px;
+    height: 14px;
+}

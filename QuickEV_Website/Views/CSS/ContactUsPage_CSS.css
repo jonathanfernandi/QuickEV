@@ -12,93 +12,126 @@
     --neutral-light: #F1F1F1;
 }
 
-.ContactUs_Content{
-    display:flex;
-    margin-top:200px;
-    margin-left:80px;
-    margin-right:80px;
-}
-.ContactUs_LeftContent{
-    display:flex;
-    flex-direction:column;
-}
-.ContactUs_Header{
-    font-family:'Inter',sans-serif;
-    font-weight:600;
-    font-size:40px;
-}
-.ContactUs_Header2{
-    font-family:'Inter',sans-serif;
-    font-weight:400;
-    font-size:25px;
-    margin-top:20px;
-}
-.TextBox_Container{
-    margin-top:40px;
-}
-.NamaLengkap_Container , .Email_Container , .PesanAnda_Container{
-    display:flex;
-    flex-direction:column;
-    margin-top:20px;
-}
-.NamaLengkap_TxtBox, .Email_TxtBox, .PesanAnda_TxtBox{
-    width:650px;
-    height:50px;
-    border-radius:12px;
-    border: 0.5px solid;    
-    text-indent:15px;
+.ContactUs_Content {
+    display: flex;
+    margin-top: 200px;
+    margin-left: 80px;
+    margin-right: 80px;
+    gap: 50px;
+    align-items: flex-end;
 }
 
-::placeholder{
-    text-indent:15px;
+.ContactUs_LeftContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    padding: 30px 30px 30px 30px;
+    gap: 30px;
 }
 
-.PesanAnda_TxtBox{
-    height:200px;
-    
+.ContactUs_Header {
+    font-family: 'Inter',sans-serif;
+    font-weight: 700;
+    font-size: 35px;
 }
-.PesanAnda_TxtBox::placeholder{
-    position:absolute;
-    top:10px;
-    left:0px;
+
+.ContactUs_Header2 {
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    /*margin-top: 20px;*/
 }
+
+.TextBox_Container {
+    /*margin-top: 40px;*/
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.NamaLengkap_Container, .Email_Container, .PesanAnda_Container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    /*margin-top: 20px;*/
+}
+
+.NamaLengkap_TxtBox, .Email_TxtBox, .PesanAnda_TxtBox {
+    width: 100%;
+    height: 50px;
+    border-radius: 12px;
+    border: 0.5px solid;
+    text-indent: 15px;
+    font-size: 16px;
+}
+
+::placeholder {
+    text-indent: 15px;
+    font-size: 16px;
+}
+
+.PesanAnda_TxtBox {
+    height: 200px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 15px;
+}
+
+    .PesanAnda_TxtBox::placeholder {
+/*        position: absolute;
+        top: 10px;
+        left: 0px;*/
+        position: absolute;
+        top: 15px;
+        left: 0px;
+    }
 
 .NamaLengkap_Text, .Email_Text, .PesanAnda_Text {
     font-family: 'Inter',sans-serif;
-    font-weight:500;
-    font-size:20px;
-    margin-bottom:10px;
+    font-weight: 500;
+    font-size: 20px;
+    /*margin-bottom: 10px;*/
 }
 
 .Submit_Btn {
-    margin-top: 70px;
+    /*    margin-top: 70px;*/
+    margin-top: auto;
     align-items: center;
     align-content: center;
     text-align: center;
-    
+    width: 100%;
 }
+
 .KirimPesan_Btn {
     text-align: center;
     align-content: center;
     background-color: #566246;
     border: 0px;
-    width: 500px;
+    width: 100%;
     height: 60px;
     border-radius: 12px;
     font-family: 'Inter',sans-serif;
-    font-weight:600;
-    font-size:20px;
-    color:white;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
 }
 
-.ContactUs_RightContent{
-    display:flex;
+.ContactUs_RightContent {
+    display: flex;
+    height: 100vh;
+    padding: 30px 30px 30px 30px;
+    width: auto;
 }
 
-.ContactUs_Pic{
-    display:flex;
-    position:relative;
-    z-index:-10;
-    width:505px;
-    height:800px;
+.ContactUs_Pic {
+    margin-top: auto;
+    display: flex;
+    /*    position: relative;
+    z-index: -10;*/
+    height: 100%;
+    width: auto;
+    /*    width: 505px;
+    height: 800px;*/
 }

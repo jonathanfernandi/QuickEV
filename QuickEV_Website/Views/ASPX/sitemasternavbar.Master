@@ -58,7 +58,7 @@
                     <li runat="server" id="relawanLi" visible="true">
                         <div class="profileBox">
                             <asp:ImageButton ID="ImageButton1" ImageUrl="~/Assets/Images/profile_logo.png" runat="server" />
-                            <a href="">PROFILE</a>
+                            <a href="ProfilePage.aspx">PROFILE</a>
                         </div>
                     </li>
                     <%
@@ -69,7 +69,7 @@
                     <li runat="server" id="komunitasLi" visible="true">
                         <div class="profileBox">
                             <asp:ImageButton ID="ImageButton2" ImageUrl="~/Assets/Images/profile_logo.png" runat="server" />
-                            <a href="">PROFILE</a>
+                            <a href="ProfilePage.aspx">PROFILE</a>
                         </div>
                     </li>
                     <%
@@ -121,7 +121,7 @@
                         <asp:Label ID="pendapatLbl" runat="server" Text="Kami senang mendengar pendapat Anda. Masukan Anda sangat berharga bagi kami." CssClass="pendapatLbl"></asp:Label>
                     </div>
                     <div class="hubungi">
-                        <asp:HyperLink ID="hubungiLbl" runat="server" Text="Hubungi kami di sini" CssClass="hubungiLbl"></asp:HyperLink>
+                        <asp:HyperLink ID="hubungiLbl" runat="server" Text="Hubungi kami di sini" NavigateUrl="~/Views/ASPX/ContactUsPage.aspx" CssClass="hubungiLbl"></asp:HyperLink>
                     </div>
                 </div>
 

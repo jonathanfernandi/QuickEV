@@ -80,7 +80,7 @@
 }
 
 
-.SIGNIN_Background, .logOutBtn{
+.SIGNIN_Background, .logOutBox{
     background:white;
     height:44px;
     width:115px;
@@ -91,18 +91,25 @@
     justify-content:center;
     border-radius:10px;
 }
-.nav_bar_box .account li .SIGNIN_Background a {
+.nav_bar_box .account li .SIGNIN_Background a{
     color: #000000;
     border-radius: 10px;
     font-weight: 800;
+    font-size: 16px;
 }
 
 .logOutBtn {
     color: #000000;
+    font-weight: 800;
+    background: none;
+    border: none;
+    font-size: 16px;
+    /*    color: #000000;
     border-radius: 10px;
     font-weight: 800;
     box-shadow: none;
     font-size: 16px;
+    border-style: none;*/
 }
 
 .profileBox {

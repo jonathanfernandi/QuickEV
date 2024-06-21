@@ -40,6 +40,7 @@
                         <asp:ListItem> </asp:ListItem>
                         <asp:ListItem>Lingkungan</asp:ListItem>
                         <asp:ListItem>Bencana Alam</asp:ListItem>
+                        <asp:ListItem>Pendidikan</asp:ListItem>
                     </asp:DropDownList>
                     <asp:Label ID="fokusErrorLbl" runat="server" Text="" ForeColor="Red"></asp:Label>
                 </div>

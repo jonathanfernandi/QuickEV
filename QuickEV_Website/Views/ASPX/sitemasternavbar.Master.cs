@@ -39,6 +39,8 @@ namespace QuickEV_Website.Views.ASPX
                         cariKomunitasLi.Visible = false;
                         //tambahKegiatanLi.Visible = true;
                         kegiatanLi.Visible = true;
+                        komunitasLbl.Visible = false;
+                        kegiatanLbl.NavigateUrl = "~/Views/ASPX/KegiatanPage.aspx";
                     }
                 }
                 else

@@ -13,7 +13,6 @@ namespace QuickEV_Website.Views.ASPX
         {
 
         }
-
         protected void KirimPesan_Btn_Click(object sender, EventArgs e)
         {
             Response.Redirect("~/Views/ASPX/ContactUsPage.aspx");
