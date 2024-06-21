@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="26bfd292e67e4e06986f6d02eaa0c75c" Name="Diagram1">
+        <EntityTypeShape EntityType="Database1Model.DetailKegiatan" Width="1.5" PointX="5.25" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Kegiatan" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Komunita" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Relawan" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.User" Width="1.5" PointX="6" PointY="2.75" IsExpanded="true" />
+        <AssociationConnector Association="Database1Model.FK_DetailKegiatan_Kegiatan" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_DetailKegiatas_Relawan" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_Kegiatan_ToKomunitas" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_Users_ToKomunitas" ManuallyRouted="false" />
+        <AssociationConnector Association="Database1Model.FK_Users_ToRelawan" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="Database1Model.DetailKomunita" Width="1.5" PointX="8" PointY="6.75" />
+        <AssociationConnector Association="Database1Model.FK_DetailKomunitas_Komunitas" />
+        <AssociationConnector Association="Database1Model.FK_DetailKomunitas_Relawan" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

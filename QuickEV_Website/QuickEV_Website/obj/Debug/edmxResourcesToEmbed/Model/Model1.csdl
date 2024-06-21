@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Database1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="DetailKegiatan">
+    <Key>
+      <PropertyRef Name="IdKegiatan" />
+      <PropertyRef Name="IdRelawan" />
+    </Key>
+    <Property Name="IdKegiatan" Type="Int32" Nullable="false" />
+    <Property Name="IdRelawan" Type="Int32" Nullable="false" />
+    <Property Name="TanggalRegistrasi" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Kegiatan" Relationship="Self.FK_DetailKegiatan_Kegiatan" FromRole="DetailKegiatan" ToRole="Kegiatan" />
+    <NavigationProperty Name="Relawan" Relationship="Self.FK_DetailKegiatas_Relawan" FromRole="DetailKegiatan" ToRole="Relawan" />
+  </EntityType>
+  <EntityType Name="Kegiatan">
+    <Key>
+      <PropertyRef Name="IdKegiatan" />
+    </Key>
+    <Property Name="IdKegiatan" Type="Int32" Nullable="false" />
+    <Property Name="IdKomunitas" Type="Int32" Nullable="false" />
+    <Property Name="NamaKegiatan" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="StartDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="EndDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Lokasi" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FotoKegiatan" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+    <Property Name="StartTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="EndTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="StartRegistration" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="EndRegistration" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="DescKegiatan" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NamaPekerjaan" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="RelawanDibutuhkan" Type="Int32" Nullable="false" />
+    <Property Name="TugasRelawan" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="KriteriaRelawan" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PerlengkapanRelawan" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DomisiliRelawan" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FokusEvent" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="DetailKegiatans" Relationship="Self.FK_DetailKegiatan_Kegiatan" FromRole="Kegiatan" ToRole="DetailKegiatan" />
+    <NavigationProperty Name="Komunita" Relationship="Self.FK_Kegiatan_ToKomunitas" FromRole="Kegiatan" ToRole="Komunitas" />
+  </EntityType>
+  <EntityType Name="Komunita">
+    <Key>
+      <PropertyRef Name="IdKomunitas" />
+    </Key>
+    <Property Name="IdKomunitas" Type="Int32" Nullable="false" />
+    <Property Name="NamaKomunitas" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DeskripsiKomunitas" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FokusUtama" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Logo" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+    <Property Name="Alamat" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Provinsi" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TelpKomunitas" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Kegiatans" Relationship="Self.FK_Kegiatan_ToKomunitas" FromRole="Komunitas" ToRole="Kegiatan" />
+    <NavigationProperty Name="Users" Relationship="Self.FK_Users_ToKomunitas" FromRole="Komunitas" ToRole="Users" />
+    <NavigationProperty Name="DetailKomunitas" Relationship="Database1Model.FK_DetailKomunitas_Komunitas" FromRole="Komunita" ToRole="DetailKomunita" />
+  </EntityType>
+  <EntityType Name="Relawan">
+    <Key>
+      <PropertyRef Name="IdRelawan" />
+    </Key>
+    <Property Name="IdRelawan" Type="Int32" Nullable="false" />
+    <Property Name="NamaRelawan" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EmailRelawan" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="GenderRelawan" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DOBRelawan" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="ProvinsiRelawan" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="DetailKegiatans" Relationship="Self.FK_DetailKegiatas_Relawan" FromRole="Relawan" ToRole="DetailKegiatan" />
+    <NavigationProperty Name="Users" Relationship="Self.FK_Users_ToRelawan" FromRole="Relawan" ToRole="Users" />
+    <NavigationProperty Name="DetailKomunitas" Relationship="Database1Model.FK_DetailKomunitas_Relawan" FromRole="Relawan" ToRole="DetailKomunita" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="IdUser" />
+    </Key>
+    <Property Name="IdUser" Type="Int32" Nullable="false" />
+    <Property Name="Username" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="RoleUser" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="IdKomunitas" Type="Int32" />
+    <Property Name="IdRelawan" Type="Int32" />
+    <NavigationProperty Name="Komunita" Relationship="Self.FK_Users_ToKomunitas" FromRole="Users" ToRole="Komunitas" />
+    <NavigationProperty Name="Relawan" Relationship="Self.FK_Users_ToRelawan" FromRole="Users" ToRole="Relawan" />
+  </EntityType>
+  <Association Name="FK_DetailKegiatan_Kegiatan">
+    <End Role="Kegiatan" Type="Self.Kegiatan" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="DetailKegiatan" Type="Self.DetailKegiatan" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kegiatan">
+        <PropertyRef Name="IdKegiatan" />
+      </Principal>
+      <Dependent Role="DetailKegiatan">
+        <PropertyRef Name="IdKegiatan" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DetailKegiatas_Relawan">
+    <End Role="Relawan" Type="Self.Relawan" Multiplicity="1" />
+    <End Role="DetailKegiatan" Type="Self.DetailKegiatan" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Relawan">
+        <PropertyRef Name="IdRelawan" />
+      </Principal>
+      <Dependent Role="DetailKegiatan">
+        <PropertyRef Name="IdRelawan" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Kegiatan_ToKomunitas">
+    <End Role="Komunitas" Type="Self.Komunita" Multiplicity="1" />
+    <End Role="Kegiatan" Type="Self.Kegiatan" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Komunitas">
+        <PropertyRef Name="IdKomunitas" />
+      </Principal>
+      <Dependent Role="Kegiatan">
+        <PropertyRef Name="IdKomunitas" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Users_ToKomunitas">
+    <End Role="Komunitas" Type="Self.Komunita" Multiplicity="0..1" />
+    <End Role="Users" Type="Self.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Komunitas">
+        <PropertyRef Name="IdKomunitas" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="IdKomunitas" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Users_ToRelawan">
+    <End Role="Relawan" Type="Self.Relawan" Multiplicity="0..1" />
+    <End Role="Users" Type="Self.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Relawan">
+        <PropertyRef Name="IdRelawan" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="IdRelawan" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Database1Entities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="DetailKegiatans" EntityType="Self.DetailKegiatan" />
+    <EntitySet Name="Kegiatans" EntityType="Self.Kegiatan" />
+    <EntitySet Name="Komunitas" EntityType="Self.Komunita" />
+    <EntitySet Name="Relawans" EntityType="Self.Relawan" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <AssociationSet Name="FK_DetailKegiatan_Kegiatan" Association="Self.FK_DetailKegiatan_Kegiatan">
+      <End Role="Kegiatan" EntitySet="Kegiatans" />
+      <End Role="DetailKegiatan" EntitySet="DetailKegiatans" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DetailKegiatas_Relawan" Association="Self.FK_DetailKegiatas_Relawan">
+      <End Role="Relawan" EntitySet="Relawans" />
+      <End Role="DetailKegiatan" EntitySet="DetailKegiatans" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Kegiatan_ToKomunitas" Association="Self.FK_Kegiatan_ToKomunitas">
+      <End Role="Komunitas" EntitySet="Komunitas" />
+      <End Role="Kegiatan" EntitySet="Kegiatans" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Users_ToKomunitas" Association="Self.FK_Users_ToKomunitas">
+      <End Role="Komunitas" EntitySet="Komunitas" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Users_ToRelawan" Association="Self.FK_Users_ToRelawan">
+      <End Role="Relawan" EntitySet="Relawans" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <EntitySet Name="DetailKomunitas" EntityType="Database1Model.DetailKomunita" />
+    <AssociationSet Name="FK_DetailKomunitas_Komunitas" Association="Database1Model.FK_DetailKomunitas_Komunitas">
+      <End Role="Komunita" EntitySet="Komunitas" />
+      <End Role="DetailKomunita" EntitySet="DetailKomunitas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DetailKomunitas_Relawan" Association="Database1Model.FK_DetailKomunitas_Relawan">
+      <End Role="Relawan" EntitySet="Relawans" />
+      <End Role="DetailKomunita" EntitySet="DetailKomunitas" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="DetailKomunita">
+    <Key>
+      <PropertyRef Name="IdKomunitas" />
+      <PropertyRef Name="IdRelawan" />
+    </Key>
+    <Property Name="IdKomunitas" Type="Int32" Nullable="false" />
+    <Property Name="IdRelawan" Type="Int32" Nullable="false" />
+    <Property Name="TanggalDaftar" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Komunita" Relationship="Database1Model.FK_DetailKomunitas_Komunitas" FromRole="DetailKomunita" ToRole="Komunita" />
+    <NavigationProperty Name="Relawan" Relationship="Database1Model.FK_DetailKomunitas_Relawan" FromRole="DetailKomunita" ToRole="Relawan" />
+  </EntityType>
+  <Association Name="FK_DetailKomunitas_Komunitas">
+    <End Type="Database1Model.Komunita" Role="Komunita" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Database1Model.DetailKomunita" Role="DetailKomunita" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Komunita">
+        <PropertyRef Name="IdKomunitas" />
+      </Principal>
+      <Dependent Role="DetailKomunita">
+        <PropertyRef Name="IdKomunitas" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DetailKomunitas_Relawan">
+    <End Type="Database1Model.Relawan" Role="Relawan" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Database1Model.DetailKomunita" Role="DetailKomunita" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Relawan">
+        <PropertyRef Name="IdRelawan" />
+      </Principal>
+      <Dependent Role="DetailKomunita">
+        <PropertyRef Name="IdRelawan" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

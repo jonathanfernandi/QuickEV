@@ -1,0 +1,206 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-dark: #566246;
+    --main-light: #F7F2CA;
+    --neutral-dark: #1F1F1F;
+    --neutral-light: #F1F1F1;
+}
+
+.page {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: auto;
+    background: var(--neutral-light);
+    width:100%;
+}
+
+.page .container {
+    padding: 10vh 5vh 10vh 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.form {
+    width: 100%;
+}
+
+.header{
+    padding-top: 22vh;
+}
+
+.header,
+.subHeader{
+    text-align: center;
+}
+
+.headerLbl {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.subHeaderLbl {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.formHeader1,
+.formHeader2,
+.formHeader3,
+.nameKegiatanBox,
+.descBox,
+.fokusBox,
+.startRegistBox,
+.endRegistBox,
+.fotoBox,
+.namaPekerjaanBox,
+.relawanDibutuhkanBox,
+.tugasRelawanBox,
+.kriteriaRelawanBox,
+.perlengkapanRelawanBox,
+.domisiliRelawanBox,
+.lokasiBox,
+.startDateBox,
+.endDateBox,
+.startTimeBox,
+.endTimeBox,
+.tambahBtn {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.registBox,
+.dateBox,
+.timeBox{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.nameKegiatanLbl,
+.descLbl,
+.fokusLbl,
+.startRegistLbl,
+.endRegistLbl,
+.fotoLbl,
+.namaPekerjaanLbl,
+.relawanDibutuhkanLbl,
+.tugasRelawanLbl,
+.kriteriaRelawanLbl,
+.perlengkapanRelawanLbl,
+.domisiliRelawanLbl,
+.lokasiLbl,
+.startDateLbl,
+.endDateLbl,
+.startTimeLbl,
+.endTimeLbl {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nameKegiatanBox,
+.namaPekerjaanBox,
+.lokasiBox {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.fotoFU {
+    padding-top: 10px;
+}
+
+.formHeader1,
+.formHeader2,
+.formHeader3 {
+    padding-top: 5vh;
+    padding-bottom: 1vh;
+    margin-bottom: 0;
+}
+
+.formHeader1Lbl,
+.formHeader2Lbl,
+.formHeader3Lbl {
+    text-align: left;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.nameKegiatanTxt,
+.descTxt,
+.fokusDDL,
+.startRegistTxt,
+.endRegistTxt,
+.namaPekerjaanTxt,
+.relawanDibutuhkanTxt,
+.tugasRelawanTxt,
+.kriteriaRelawanTxt,
+.perlengkapanRelawanTxt,
+.domisiliRelawanDDL,
+.lokasiTxt,
+.startDateTxt,
+.endDateTxt,
+.startTimeTxt,
+.endTimeTxt {
+    margin-top: 8px;
+    border-style: solid;
+    border-width: 0.1px;
+    border-radius: 7px;
+    width: auto;
+    height: 45px;
+}
+
+
+.nameKegiatanTxt,
+.descTxt,
+.fokusDDL,
+.startRegistTxt,
+.endRegistTxt,
+.fotoFU,
+.namaPekerjaanTxt,
+.relawanDibutuhkanTxt,
+.tugasRelawanTxt,
+.kriteriaRelawanTxt,
+.perlengkapanRelawanTxt,
+.domisiliRelawanDDL,
+.lokasiTxt,
+.startDateTxt,
+.endDateTxt,
+.startTimeTxt,
+.endTimeTxt {
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.tambahBox {
+    margin-top: 10vh;
+}
+
+.tambahBtn {
+    width: 100%;
+    border-style: none;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}

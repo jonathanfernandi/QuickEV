@@ -1,0 +1,186 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-dark: #566246;
+    --main-light: #F7F2CA;
+    --neutral-dark: #1F1F1F;
+    --neutral-light: #F1F1F1;
+}
+
+.page {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: auto;
+    background: var(--neutral-light);
+}
+
+.page .container-page{
+    margin-top: 105px;
+    padding: 20vh 5vh 20vh 5vh;
+}
+
+.page .container-page .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    padding: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 0.5px 0.5px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+.logo{
+    padding-bottom: 10px;
+}
+
+.header {
+    padding-bottom: 20px;
+}
+
+.headerLbl {
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.nameLbl,
+.descLbl,
+.fokusLbl,
+.logoLbl,
+.alamatLbl,
+.provinsiLbl,
+.telpLbl,
+.usernameLbl,
+.passwordLbl,
+.confPasswordLbl,
+.fokusLbl,
+.logoLbl,
+.provinsiLbl {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.subHeader1,
+.nameBox,
+.descBox,
+.fokusBox,
+.logoBox,
+.subHeader2,
+.alamatBox,
+.provinsiBox,
+.subHeader3,
+.telpBox,
+.subHeader4,
+.usernameBox,
+.passwordBox,
+.confPasswordBox,
+.warningBox,
+.daftarBox {
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.nameBox,
+.alamatBox,
+.telpBox,
+.usernameBox {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.logoFU{
+    padding-top: 10px;
+}
+
+.subHeader1,
+.subHeader2,
+.subHeader3,
+.subHeader4 {
+    padding-top: 5vh;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.profilLbl,
+.lokasiLbl,
+.kontakLbl,
+.userInfoLbl {
+    text-align: left;
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.nameTxt,
+.descTxt,
+.fokusTxt,
+.logoTxt,
+.alamatTxt,
+.provinsiTxt,
+.telpTxt,
+.usernameTxt,
+.passwordTxt,
+.confPasswordTxt,
+.fokusDDL,
+.provinsiDDL {
+    margin-top: 8px;
+    border-style: solid;
+    border-width: 0.1px;
+    border-radius: 7px;
+    width: auto;
+    height: 35px;
+}
+
+.nameTxt,
+.descTxt,
+.fokusTxt,
+.logoTxt,
+.alamatTxt,
+.provinsiTxt,
+.telpTxt,
+.usernameTxt,
+.passwordTxt,
+.confPasswordTxt,
+.fokusDDL,
+.logoFU,
+.provinsiDDL {
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.warningBox {
+    padding-top: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.warningLbl {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.daftarBtn {
+    width: 100%;
+    border-style: none;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    height: 40px;
+}
