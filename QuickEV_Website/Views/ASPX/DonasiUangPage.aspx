@@ -54,7 +54,7 @@
 
             </div>
         </div>
-        <img class="Background_Pic" src="../../Assets/Images/Donasi_Background.jpg" />
+        <img class="Background_Pic" src="../../Assets/Images/poor-child-landfill-looks-forward-with-hope (2).jpg" />
     </div>
 
 </asp:Content>

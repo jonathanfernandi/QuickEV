@@ -8,9 +8,33 @@
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
+
+
+/* SELECTION: Starts */
+    *::selection {
+        background-color: var(--main-dark);
+        color: var(--neutral-light);
+    }
+/* SELECTION: Ends */
+
+/* Webkit(s): Start */
+::-webkit-scrollbar {
+    height: .5rem;
+    width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--neutral-light);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--main-light);
+}
+/* Webkit(s): End */
+
 .nav_bar_box {
     position: fixed;
-    top:0;
+    top: 0;
     background-color: #566246;
     height: 105px;
     width: 100%;
@@ -29,69 +53,96 @@
 .Logo_Page img {
     width: 51px;
     height: 51px;
-    display:flex;
-    align-content:center;
-    align-items:center;
-    text-align:center
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center
+}
 
+.Logo_QuickEV {
+    margin-left: 10px;
 }
-.Logo_QuickEV{
-    margin-left:10px;
-}
+
 .nav_bar_box .Left_menu {
     float: left;
-    margin:0px;
+    margin: 0px;
     padding: 0px;
-    display:flex;
-    justify-content:center;
-    align-content:center;
-    align-items:center;
-    margin-left:31px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-left: 31px;
 }
 
-.nav_bar_box ul li{
-    display:inline-block;
-    text-align:center;
-    margin-right:40px;
-    text-decoration:none;
+.nav_bar_box ul li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 40px;
+    text-decoration: none;
 }
 
-.nav_bar_box ul li .Logo_Page_Container a{
-    font-size: 40px;
-    font-family:'Lato',sans-serif;
+    .nav_bar_box ul li .Logo_Page_Container a {
+        font-size: 40px;
+        font-family: 'Lato',sans-serif;
+    }
+
+    .nav_bar_box ul li a {
+        text-decoration: none;
+        color: white;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+.nav_bar_box .but {
+    position: relative;
 }
 
-.nav_bar_box ul li a{
-    text-decoration:none;
-    color:white;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-weight:600;
-    font-size:16px;
-}
+    .nav_bar_box .but::after {
+        content: '';
+        height: 2px;
+        width: 0;
+        background-color: var(--main-pink);
+        position: absolute;
+        left: 0;
+        bottom: -0.5px;
+    }
 
-.account{
+    .nav_bar_box .but:hover {
+        color: var(--main-light);
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        text-decoration-thickness: 1.5px;
+    }
+
+    .nav_bar_box .but::after {
+        width: 100%;
+    }
+
+.account {
     float: right;
     display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
-    margin:0px;
-    padding:0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 
-.SIGNIN_Background, .logOutBox{
-    background:white;
-    height:44px;
-    width:115px;
-    display:flex;
-    text-align:center;
-    align-content:center;
-    align-items:center;
-    justify-content:center;
-    border-radius:10px;
+.SIGNIN_Background, .logOutBox {
+    background: white;
+    height: 44px;
+    width: 115px;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
 }
-.nav_bar_box .account li .SIGNIN_Background a{
+
+.nav_bar_box .account li .SIGNIN_Background a {
     color: #000000;
     border-radius: 10px;
     font-weight: 800;
@@ -111,6 +162,10 @@
     font-size: 16px;
     border-style: none;*/
 }
+
+    .logOutBtn:hover {
+        cursor: pointer;
+    }
 
 .profileBox {
     display: flex;
@@ -132,7 +187,7 @@
 
 .footer {
     margin-top: 100px;
-    margin-bottom:10px;
+    margin-bottom: 10px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -141,7 +196,7 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    gap:10%;
+    gap: 10%;
 }
 
 .container {
@@ -180,13 +235,13 @@
     padding: 20px;
 }
 
-.location-section .location-content .location-container {
-    background-color: var(--main-dark);
-    border-radius: 50%;
-    padding: 10px;
-    display: inline-block;
-    margin-right: 40px;
-}
+    .location-section .location-content .location-container {
+        background-color: var(--main-dark);
+        border-radius: 50%;
+        padding: 10px;
+        display: inline-block;
+        margin-right: 40px;
+    }
 
 .location-section .locationLogo {
     width: 24px;
@@ -222,8 +277,15 @@
 .hubungiLbl {
     font-size: 18px;
     font-weight: 700;
+    color: black;
     opacity: 40%;
+    text-decoration: none;
 }
+
+    .hubungiLbl:hover {
+        color: #7d9064;
+        opacity: 100%;
+    }
 
 .botNavigation-section {
     grid-area: botNavigation-section;
@@ -233,24 +295,24 @@
     padding: 30px;
 }
 
-.botNavigation-section .botNavigation-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+    .botNavigation-section .botNavigation-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
-.botNavigation-section .botNavigation-content .profil-content {
-    display: flex;
-    flex-direction: column;
-}
+        .botNavigation-section .botNavigation-content .profil-content {
+            display: flex;
+            flex-direction: column;
+        }
 
-.botNavigation-section .botNavigation-content .gabung-content {
-    display: flex;
-    flex-direction: column;
-}
+        .botNavigation-section .botNavigation-content .gabung-content {
+            display: flex;
+            flex-direction: column;
+        }
 
-.botNavigation-section .navHeader {
-    margin-bottom: 20px;
-}
+    .botNavigation-section .navHeader {
+        margin-bottom: 20px;
+    }
 
 .navHeaderLbl {
     font-size: 25px;
@@ -276,8 +338,16 @@
 .tentangKamiLbl, .kegiatanLbl, .komunitasLbl, .donaturLbl {
     font-size: 18px;
     font-weight: 500;
+    color: black;
     opacity: 50%;
 }
+
+    .tentangKamiLbl:hover, .kegiatanLbl:hover, .komunitasLbl:hover, .donaturLbl:hover {
+        opacity: 100%;
+        text-decoration: underline;
+        text-decoration-thickness: 1.5px;
+        text-underline-offset: 5px;
+    }
 
 .social-section {
     grid-area: social-section;
@@ -287,16 +357,16 @@
     /*    max-width: 400px;*/
 }
 
-.social-section .instagram,
-.social-section .facebook,
-.social-section .twitter {
-    border-style: solid;
-    border-width: 0.5px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
+    .social-section .instagram,
+    .social-section .facebook,
+    .social-section .twitter {
+        border-style: solid;
+        border-width: 0.5px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
 .footer .copyright {
     margin-top: 30px;
@@ -319,4 +389,3 @@
     text-decoration: none;
     color: black;
 }
-

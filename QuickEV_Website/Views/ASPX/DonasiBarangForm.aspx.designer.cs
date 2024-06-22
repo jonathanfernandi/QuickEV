@@ -60,15 +60,6 @@ namespace QuickEV_Website.Views.ASPX
         protected global::System.Web.UI.WebControls.TextBox nameTxt;
 
         /// <summary>
-        /// nameValidator control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator nameValidator;
-
-        /// <summary>
         /// emailLbl control.
         /// </summary>
         /// <remarks>
@@ -85,15 +76,6 @@ namespace QuickEV_Website.Views.ASPX
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox emailTxt;
-
-        /// <summary>
-        /// emailValidator control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator emailValidator;
 
         /// <summary>
         /// telpLbl control.
@@ -114,15 +96,6 @@ namespace QuickEV_Website.Views.ASPX
         protected global::System.Web.UI.WebControls.TextBox telpTxt;
 
         /// <summary>
-        /// telpValidator control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator telpValidator;
-
-        /// <summary>
         /// jenisLbl control.
         /// </summary>
         /// <remarks>
@@ -141,15 +114,6 @@ namespace QuickEV_Website.Views.ASPX
         protected global::System.Web.UI.WebControls.DropDownList jenisDDL;
 
         /// <summary>
-        /// jenisValidator control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator jenisValidator;
-
-        /// <summary>
         /// kondisiLbl control.
         /// </summary>
         /// <remarks>
@@ -166,15 +130,6 @@ namespace QuickEV_Website.Views.ASPX
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList kondisiDDL;
-
-        /// <summary>
-        /// kondisiValidator control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator kondisiValidator;
 
         /// <summary>
         /// step2 control.

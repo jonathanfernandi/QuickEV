@@ -19,7 +19,11 @@
     align-items: center;
     align-content: center;
     height: auto;
-    background: #7d9064;
+    background: url(../../Assets/Images/begging-bridge-with-person-who-handed-bread.jpg);
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
 }
 
 .page .page-container {

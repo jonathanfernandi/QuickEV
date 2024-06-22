@@ -28,7 +28,7 @@
             </div>
         </div>
         <div class="ContactUs_RightContent">
-            <img class="ContactUs_Pic" src="../../Assets/Images/ContactUs_KirimPesanPic.png" />
+            <img class="ContactUs_Pic" src="../../Assets/Images/people-holding-fists-up-together.jpg" />
         </div>
     </div>
 </asp:Content>

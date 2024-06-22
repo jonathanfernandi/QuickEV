@@ -23,7 +23,7 @@
 .splashscreen {
     width: 100%;
     height: 100vh;
-    background-image: url("../../Assets/Images/medium-shot-people-hugging.jpg");
+    background-image: url("../../Assets/Images/beautiful-indonesian-child-girl-with-pigtails-ribbons-beautiful-balinese-girl-with-big-black-eyes-bali-nov-2021.jpg");
     background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: multiply;
     background-size: cover;
@@ -236,19 +236,30 @@
 
 .program_container {
     display: flex;
-    background-color: #F7F2CA;
+    /*    background-color: #7d9064;*/
+    background: url(../../Assets/Images/noisy-gradients.png);
+    background-size: cover;
+    background-position: center;
     flex-direction: column;
     padding: 30px 0 30px 0;
     width: 100%;
 }
 
-    .program-h1 h1 {
-        font-family: 'Plus Jakarta Sans', sans-serif;
-        font-size: 25px;
-        padding: 20px;
-        /*display: flex;
+.program-h1{
+    padding-left: 20px;
+}
+
+.program-h1 h1 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 25px;
+    /*padding: 20px;*/
+    color: white;
+    display: inline-block;
+    background-size: 90% 90%;
+    background-color: #566246;
+    /*display: flex;
     height: 40px;*/
-    }
+}
 
 .five_content {
     display: flex;

@@ -160,6 +160,10 @@
     padding-right: 5px;
 }
 
+.descTxt{
+    height: 200px;
+}
+
 .warningBox {
     padding-top: 8vh;
     display: flex;

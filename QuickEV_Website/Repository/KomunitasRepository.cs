@@ -1,6 +1,8 @@
-﻿using QuickEV_Website.Model;
+﻿using QuickEV_Website.Factory;
+using QuickEV_Website.Model;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Web;
 
@@ -13,6 +15,17 @@ namespace QuickEV_Website.Repository
         public static void AddKomunitas(Komunita komunitas)
         {
             db.Komunitas.Add(komunitas);
+            db.SaveChanges();
+        }
+        public static void UpdateKomunitas(Komunita komunitas, Image logo, String name, String desc, String alamat, String telp, String domisili, User user, String username)
+        {
+            komunitas.Logo = KomunitasFactory.ImageToByteArray(logo);
+            komunitas.NamaKomunitas = name;
+            komunitas.DeskripsiKomunitas = desc;
+            komunitas.Alamat = alamat;
+            komunitas.TelpKomunitas = telp;
+            komunitas.Provinsi = domisili;
+            user.Username = username;
             db.SaveChanges();
         }
         public static Komunita GetKomunitasById(int id)

@@ -53,10 +53,10 @@ namespace QuickEV_Website.Views.ASPX
         {
             if (UserController.IsUserLoggedIn())
             {
-                if (nameTxt.Text.Length != 0 && emailTxt.Text.Length != 0 && telpTxt.Text.Length != 0 && jenisDDL.Text.Length != 0 && kondisiDDL.Text.Length != 0)
-                {
+                //if (nameTxt.Text.Length != 0 && emailTxt.Text.Length != 0 && telpTxt.Text.Length != 0 && jenisDDL.Text.Length != 0 && kondisiDDL.Text.Length != 0)
+                //{
                     Response.Redirect("~/Views/ASPX/ThankYouPage.aspx");
-                }
+                //}
             }
             else
             {

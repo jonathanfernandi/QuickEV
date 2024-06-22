@@ -37,7 +37,7 @@
 
                 <div class="descBox">
                     <asp:Label ID="descLbl" runat="server" Text="Deskripsi Komunitas" CssClass="descLbl"></asp:Label>
-                    <asp:TextBox ID="descTxt" runat="server" CssClass="descTxt"></asp:TextBox>
+                    <asp:TextBox ID="descTxt" runat="server" CssClass="descTxt" TextMode="MultiLine" Rows="10" Columns="50" MaxLength="1500"></asp:TextBox>
                     <asp:Label ID="descErrorLbl" runat="server" Text="" ForeColor="Red"></asp:Label>
                 </div>
 
@@ -119,7 +119,7 @@
                 </div>
 
                 <div class="updateBox">
-                    <asp:Button ID="updateBtn" runat="server" Text="Konfirmasi Edit" CssClass="updateBtn" />
+                    <asp:Button ID="updateBtn" runat="server" Text="Konfirmasi Edit" CssClass="updateBtn" OnClick="updateBtn_Click" />
                 </div>
             </div>
 

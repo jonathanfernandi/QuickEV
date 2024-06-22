@@ -3,6 +3,7 @@ using QuickEV_Website.Model;
 using QuickEV_Website.Modules;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Web;
 
@@ -37,6 +38,10 @@ namespace QuickEV_Website.Controller
         public static Response<DetailKomunita> AddDetailKomunitas(int idKomunitas, int idRelawan)
         {
             return KomunitasHandler.AddDetailKomunitas(idKomunitas, idRelawan);
+        }
+        public static Response<Komunita> UpdateKomunitas(Komunita komunitas, Image logo, String name, String desc, String alamat, String telp, String domisili, User user, String username)
+        {
+            return KomunitasHandler.UpdateKomunitas(komunitas, logo, name, desc, alamat, telp, domisili, user, username);
         }
     }
 }

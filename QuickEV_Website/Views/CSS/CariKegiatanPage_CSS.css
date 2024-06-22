@@ -14,7 +14,7 @@
 }
 
 .Welcome_CariKegiatan_Container {
-    background-image: url('../../Assets/Images/relawan_cariaktivitas.jpg');
+    background-image: url('../../Assets/Images/portrait-happy-asian-man-friends-sitting-chair-camp-with-talking-looking-smartphone-cooking-set-front-ground-outdoor-cooking-traveling-camping-lifestyle-concept.jpg');
     background-size: cover;
     height: 670px;
     width: 100%;
@@ -44,6 +44,16 @@
     font-weight: 700;
     font-size: 40px;
     color: white;
+    background: linear-gradient(to right, transparent, transparent);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: background-position 0.3s ease, color 0.3s ease;
+}
+
+.Welcome_CariKegiatan_Container_Text1:hover{
+    background-image: linear-gradient(to right, var(--main-dark) 50%, transparent 50%);
+    background-position: 0 0;
+    color: #ffffff;
 }
 
 .Welcome_CariKegiatan_Container_Text2 {
@@ -51,6 +61,16 @@
     font-weight: 500;
     font-size: 30px;
     color: white;
+    background: linear-gradient(to right, transparent, transparent);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: background-position 0.3s ease, color 0.3s ease;
+}
+
+.Welcome_CariKegiatan_Container_Text2:hover {
+    background-image: linear-gradient(to right, var(--main-dark) 50%, transparent 50%);
+    background-position: 0 0;
+    color: #ffffff;
 }
 
 .TemukanKegiatan_Container {

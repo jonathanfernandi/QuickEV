@@ -75,7 +75,7 @@
 
             <div class="Fitur_TentangKami_CariKegiatan_Container">
                 <div class="Fitur_TentangKami_CariKegiatan_LeftContent">
-                    <img class="CariKegiatan_Pic" src="../../Assets/Images/relawan_cariaktivitas.jpg" width="500px" height="325px" />
+                    <img class="CariKegiatan_Pic" src="../../Assets/Images/womans-hands-gloves-planting-young-plant.jpg" width="500px" height="325px" />
                 </div>
                 <div class="Fitur_TentangKami_CariKegiatan_RightContent">
                     <asp:Label ID="Fitur_TentangKami_CariKegiatan_RightContent_Header" runat="server" Text="Cari Kegiatan" CssClass="Fitur_TentangKami_CariKegiatan_RightContent_Header"></asp:Label>
@@ -102,7 +102,7 @@
 
             <div class="Fitur_TentangKami_Donasi_Container">
                 <div class="Fitur_TentangKami_Donasi_LeftContent">
-                    <img class="Donasi_Pic" src="../../Assets/Images/TentangKami_Welcome.jpg" width="500px" height="325px" />
+                    <img class="Donasi_Pic" src="../../Assets/Images/pexels-suraphat-933624.jpg" width="500px" height="325px" />
                 </div>
                 <div class="Fitur_TentangKami_CariKegiatan_RightContent">
                     <asp:Label ID="Fitur_TentangKami_Donasi_RightContent_Header" runat="server" Text="Donasi" CssClass="Fitur_TentangKami_Donasi_RightContent_Header"></asp:Label>

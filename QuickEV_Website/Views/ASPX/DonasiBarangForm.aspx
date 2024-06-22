@@ -23,23 +23,23 @@
                 <div class="box">
                     <asp:Label ID="nameLbl" runat="server" Text="Nama Donatur" CssClass="lbl"></asp:Label>
                     <asp:TextBox ID="nameTxt" runat="server" CssClass="txt"></asp:TextBox>
-                    <asp:RequiredFieldValidator ID="nameValidator" runat="server"
+<%--                    <asp:RequiredFieldValidator ID="nameValidator" runat="server"
                         ControlToValidate="nameTxt" ErrorMessage="Nama Donatur harus diisi."
-                        ForeColor="Red" Display="Dynamic"></asp:RequiredFieldValidator>
+                        ForeColor="Red" Display="Dynamic"></asp:RequiredFieldValidator>--%>
                 </div>
                 <div class="box">
                     <asp:Label ID="emailLbl" runat="server" Text="Email" CssClass="lbl"></asp:Label>
                     <asp:TextBox ID="emailTxt" runat="server" CssClass="txt"></asp:TextBox>
-                    <asp:RequiredFieldValidator ID="emailValidator" runat="server"
+<%--                    <asp:RequiredFieldValidator ID="emailValidator" runat="server"
                         ControlToValidate="emailTxt" ErrorMessage="Email harus diisi."
-                        ForeColor="Red" Display="Dynamic"></asp:RequiredFieldValidator>
+                        ForeColor="Red" Display="Dynamic"></asp:RequiredFieldValidator>--%>
                 </div>
                 <div class="box">
                     <asp:Label ID="telpLbl" runat="server" Text="No. Telepon Aktif" CssClass="lbl"></asp:Label>
                     <asp:TextBox ID="telpTxt" runat="server" CssClass="txt"></asp:TextBox>
-                    <asp:RequiredFieldValidator ID="telpValidator" runat="server"
+<%--                    <asp:RequiredFieldValidator ID="telpValidator" runat="server"
                         ControlToValidate="telpTxt" ErrorMessage="No. Telepon harus diisi."
-                        ForeColor="Red" Display="Dynamic"></asp:RequiredFieldValidator>
+                        ForeColor="Red" Display="Dynamic"></asp:RequiredFieldValidator>--%>
                 </div>
 
                 <div class="box">
@@ -51,9 +51,9 @@
                         <asp:ListItem>Mainan</asp:ListItem>
                         <asp:ListItem>Sembako</asp:ListItem>
                     </asp:DropDownList>
-                    <asp:RequiredFieldValidator ID="jenisValidator" runat="server"
+<%--                    <asp:RequiredFieldValidator ID="jenisValidator" runat="server"
                         ControlToValidate="jenisDDL" ErrorMessage="Jenis Barang harus dipilih."
-                        ForeColor="Red" Display="Dynamic" InitialValue=""></asp:RequiredFieldValidator>
+                        ForeColor="Red" Display="Dynamic" InitialValue=""></asp:RequiredFieldValidator>--%>
                 </div>
 
                 <div class="box">
@@ -63,9 +63,9 @@
                         <asp:ListItem>Baru</asp:ListItem>
                         <asp:ListItem>Bekas dan Layak Pakai</asp:ListItem>
                     </asp:DropDownList>
-                    <asp:RequiredFieldValidator ID="kondisiValidator" runat="server"
+<%--                    <asp:RequiredFieldValidator ID="kondisiValidator" runat="server"
                         ControlToValidate="kondisiDDL" ErrorMessage="Kondisi Barang harus dipilih."
-                        ForeColor="Red" Display="Dynamic" InitialValue=""></asp:RequiredFieldValidator>
+                        ForeColor="Red" Display="Dynamic" InitialValue=""></asp:RequiredFieldValidator>--%>
                 </div>
 
                 <div class="info">

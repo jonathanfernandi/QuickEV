@@ -22,13 +22,13 @@
                         </div>
                     </li>
                     <li>
-                        <a href="TentangKamiPage.aspx">TENTANG KAMI</a>
+                        <a class="but" href="TentangKamiPage.aspx">TENTANG KAMI</a>
                     </li>
                     <li runat="server" id="cariKegiatanLi" visible="true">
-                        <a href="CariKegiatanPage.aspx">CARI KEGIATAN</a>
+                        <a class="but" href="CariKegiatanPage.aspx">CARI KEGIATAN</a>
                     </li>
                     <li runat="server" id="cariKomunitasLi" visible="true">
-                        <a href="CariKomunitasPage.aspx">CARI KOMUNITAS</a>
+                        <a class="but" href="CariKomunitasPage.aspx">CARI KOMUNITAS</a>
                     </li>
                     <% if (QuickEV_Website.Controller.UserController.IsUserLoggedIn())
                         {
@@ -39,14 +39,14 @@
                         <a href="TambahKegiatan.aspx">TAMBAH KEGIATAN</a>
                     </li>--%>
                     <li runat="server" id="kegiatanLi" visible="true">
-                        <a href="KegiatanPage.aspx">KEGIATAN</a>
+                        <a class="but" href="KegiatanPage.aspx">KEGIATAN</a>
                     </li>
                     <%
                             }
                         }
                     %>
                     <li>
-                        <a href="DonasiPage.aspx">DONASI</a>
+                        <a class="but" href="DonasiPage.aspx">DONASI</a>
                     </li>
                 </ul>
                 <ul class="account">
@@ -68,7 +68,7 @@
                     %>
                     <li runat="server" id="komunitasLi" visible="true">
                         <div class="profileBox">
-                            <asp:ImageButton ID="ImageButton2" ImageUrl="~/Assets/Images/profile_logo.png" runat="server" />
+                            <asp:ImageButton ID="ImageButton2" ImageUrl="~/Assets/Images/profile_logo.png" runat="server" OnClick="ImageButton2_Click" />
                             <a href="ProfilePage.aspx">PROFILE</a>
                         </div>
                     </li>

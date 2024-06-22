@@ -119,6 +119,10 @@ body {
     text-align: center;
 }
 
+.AmbilBagianBtn:hover{
+    cursor: pointer;
+}
+
 .AmbilBagianBtn {
     background: none;
     border: none;

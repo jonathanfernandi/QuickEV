@@ -19,7 +19,11 @@
     align-items: center;
     align-content: center;
     height: auto;
-    background: #7d9064;
+    background: url(../../Assets/Images/asian-boy-life-countryside.jpg);
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: right;
 }
 
     .page .container-page {
@@ -34,7 +38,7 @@
             width: 400px;
             padding: 50px 50px 50px 50px;
             background: #FFFFFF;
-            box-shadow: 0px 0px 0.5px 0.5px #7d9064;
+            /*box-shadow: 0px 0px 0.5px 0.5px #7d9064;*/
             border-radius: 15px;
         }
 

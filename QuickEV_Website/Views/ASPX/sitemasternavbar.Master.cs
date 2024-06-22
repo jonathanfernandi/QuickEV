@@ -60,5 +60,10 @@ namespace QuickEV_Website.Views.ASPX
 
             Response.Redirect("~/Views/ASPX/SignInPage.aspx");
         }
+
+        protected void ImageButton2_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("~/Views/ASPX/ProfilePage.aspx");
+        }
     }
 }

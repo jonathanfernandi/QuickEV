@@ -81,8 +81,11 @@
     </Content>
     <Content Include="Assets\Images\ACT.jpg" />
     <Content Include="Assets\Images\aktivitas_cari_komun.png" />
+    <Content Include="Assets\Images\asian-boy-life-countryside.jpg" />
     <Content Include="Assets\Images\Background.png" />
     <Content Include="Assets\Images\back_SignUp.png" />
+    <Content Include="Assets\Images\beautiful-indonesian-child-girl-with-pigtails-ribbons-beautiful-balinese-girl-with-big-black-eyes-bali-nov-2021.jpg" />
+    <Content Include="Assets\Images\begging-bridge-with-person-who-handed-bread.jpg" />
     <Content Include="Assets\Images\berbagi.jpg" />
     <Content Include="Assets\Images\book.png" />
     <Content Include="Assets\Images\box.png" />
@@ -114,8 +117,15 @@
     <Content Include="Assets\Images\money_donasi.png" />
     <Content Include="Assets\Images\next-arrow_kegiatan.png" />
     <Content Include="Assets\Images\no-task_kegiatan.png" />
+    <Content Include="Assets\Images\noisy-gradients.png" />
+    <Content Include="Assets\Images\people-holding-fists-up-together.jpg" />
+    <Content Include="Assets\Images\pexels-suraphat-933624.jpg" />
     <Content Include="Assets\Images\play_kegiatan.png" />
     <Content Include="Assets\Images\plus_kegiatan.png" />
+    <Content Include="Assets\Images\poor-child-landfill-looks-forward-with-hope %282%29.jpg" />
+    <Content Include="Assets\Images\poor-child-landfill-looks-forward-with-hope 3.jpg" />
+    <Content Include="Assets\Images\poor-child-landfill-looks-forward-with-hope.jpg" />
+    <Content Include="Assets\Images\portrait-happy-asian-man-friends-sitting-chair-camp-with-talking-looking-smartphone-cooking-set-front-ground-outdoor-cooking-traveling-camping-lifestyle-concept.jpg" />
     <Content Include="Assets\Images\Profile_Video_resize.mp4" />
     <Content Include="Assets\Images\QuickEV-Logo-Black.png" />
     <Content Include="Assets\Images\QuickEV_Whitelogo.png" />
@@ -131,6 +141,7 @@
     <Content Include="Assets\Images\twitter.png" />
     <Content Include="Assets\Images\profile_logo.png" />
     <Content Include="Assets\Images\voluntary_cari_komun.png" />
+    <Content Include="Assets\Images\womans-hands-gloves-planting-young-plant.jpg" />
     <Content Include="Model\Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Model1.edmx</DependentUpon>

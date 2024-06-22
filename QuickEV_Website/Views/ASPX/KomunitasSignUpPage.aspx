@@ -30,7 +30,7 @@
 
                 <div class="descBox">
                     <asp:Label ID="descLbl" runat="server" Text="Deskripsi Komunitas" CssClass="descLbl"></asp:Label>
-                    <asp:TextBox ID="descTxt" runat="server" CssClass="descTxt"></asp:TextBox>
+                    <asp:TextBox ID="descTxt" runat="server" CssClass="descTxt" TextMode="MultiLine" Rows="10" Columns="50" MaxLength="1500"></asp:TextBox>
                     <asp:Label ID="descErrorLbl" runat="server" Text="" ForeColor="Red"></asp:Label>
                 </div>
 

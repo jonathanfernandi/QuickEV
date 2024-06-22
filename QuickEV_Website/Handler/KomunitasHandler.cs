@@ -4,6 +4,7 @@ using QuickEV_Website.Modules;
 using QuickEV_Website.Repository;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Web;
 
@@ -63,6 +64,16 @@ namespace QuickEV_Website.Handler
                 Message = "",
                 IsSuccess = true,
                 Payload = detailKomunitas
+            };
+        }
+        public static Response<Komunita> UpdateKomunitas(Komunita komunitas, Image logo, String name, String desc, String alamat, String telp, String domisili, User user, String username)
+        {
+            KomunitasRepository.UpdateKomunitas(komunitas, logo, name, desc, alamat, telp, domisili, user, username);
+            return new Response<Komunita>
+            {
+                Message = "",
+                IsSuccess = true,
+                Payload = null
             };
         }
     }

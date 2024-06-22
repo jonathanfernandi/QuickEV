@@ -65,3 +65,6 @@
     color: white;
     font-weight: 800;
 }
+.GoHome_Btn:hover{
+    cursor: pointer;
+}

@@ -15,23 +15,18 @@
 
             <div class="form">
 
-                <div class="nameBox">
-                    <asp:Label ID="nameLbl" runat="server" Text="Name" CssClass="nameLbl"></asp:Label>
-                    <asp:TextBox ID="nameTxt" runat="server" CssClass="nameTxt"></asp:TextBox>
-                    <asp:Label ID="nameErrorLbl" runat="server" Text="" ForeColor="Red"></asp:Label>
-                </div>
-
                 <div class="usernameBox">
                     <asp:Label ID="usernameLbl" runat="server" Text="Username" CssClass="usernameLbl"></asp:Label>
                     <asp:TextBox ID="usernameTxt" runat="server" CssClass="usernameTxt"></asp:TextBox>
                     <asp:Label ID="usernameErrorLbl" runat="server" Text="" ForeColor="Red"></asp:Label>
                 </div>
 
-                <div class="passwordBox">
-                    <asp:Label ID="passwordLbl" runat="server" Text="Password" CssClass="passwordLbl"></asp:Label>
-                    <asp:TextBox ID="passwordTxt" runat="server" TextMode="Password" CssClass="passwordTxt"></asp:TextBox>
-                    <asp:Label ID="passwordErrorLbl" runat="server" Text="" ForeColor="Red"></asp:Label>
+                <div class="nameBox">
+                    <asp:Label ID="nameLbl" runat="server" Text="Name" CssClass="nameLbl"></asp:Label>
+                    <asp:TextBox ID="nameTxt" runat="server" CssClass="nameTxt"></asp:TextBox>
+                    <asp:Label ID="nameErrorLbl" runat="server" Text="" ForeColor="Red"></asp:Label>
                 </div>
+
 
                 <div class="provinsiBox">
                     <asp:Label ID="provinsiLbl" runat="server" Text="Provinsi Domisili" CssClass="provinsiLbl"></asp:Label>
@@ -77,6 +72,12 @@
                         <asp:ListItem>Papua Barat Daya</asp:ListItem>
                     </asp:DropDownList>
                     <asp:Label ID="provinsiErrorLbl" runat="server" Text="" ForeColor="Red"></asp:Label>
+                </div>
+
+                <div class="passwordBox">
+                    <asp:Label ID="passwordLbl" runat="server" Text="Password" CssClass="passwordLbl"></asp:Label>
+                    <asp:TextBox ID="passwordTxt" runat="server" TextMode="Password" CssClass="passwordTxt"></asp:TextBox>
+                    <asp:Label ID="passwordErrorLbl" runat="server" Text="" ForeColor="Red"></asp:Label>
                 </div>
 
                 <div class="updateBox">
