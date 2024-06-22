@@ -25,6 +25,7 @@ We also extend our deepest gratitude to Ms. Ghinaa Zain Nabiilah, S.Kom., M.Kom.
 - Final Presentation: https://drive.google.com/file/d/1zZ60wYLNR7ztttQsFjLXY7X-E9dPjxth/view?usp=sharing
 - Figma Design: https://www.figma.com/design/ESKGFw69cYc9wHIHeJqhBp/Mockup-QEV?node-id=0-1&t=3iOxnMgD9yb4TcgP-1
 - GitHub Repository: https://github.com/jonathanfernandi/QuickEV.git
+- Demo Video: https://youtu.be/J0oeI3ypkZ4?feature=shared
 
 Join us in our mission to empower volunteers and organizations to make a difference during times of need. Together, we can build resilient communities and provide vital support to those affected by natural disasters.
 
